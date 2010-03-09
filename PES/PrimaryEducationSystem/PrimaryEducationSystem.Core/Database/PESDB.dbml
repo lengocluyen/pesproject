@@ -1,0 +1,205 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Database Name="PESDB" Class="PESDBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=.\sqlserver;Initial Catalog=PESDB;Integrated Security=True" SettingsObjectName="PrimaryEducationSystem.Core.Properties.Settings" SettingsPropertyName="PESDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.ARTICE" Member="Artices">
+    <Type Name="Artice">
+      <Column Name="ArticleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Title" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Contents" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="USER_ARTICE" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.USER_GROUP" Member="UserGroups">
+    <Type Name="UserGroup">
+      <Column Name="GroupID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RoleID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GroupName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="USER_GROUP_USER" Member="Users" ThisKey="GroupID" OtherKey="GroupID" Type="User" />
+      <Association Name="ROLE_USER_GROUP" Member="Role" ThisKey="RoleID" OtherKey="RoleID" Type="Role" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.CLASS" Member="Classes">
+    <Type Name="Class">
+      <Column Name="ClassID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="ClassName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="CLASS_SUBJECT" Member="Subjects" ThisKey="ClassID" OtherKey="ClassID" Type="Subject" />
+    </Type>
+  </Table>
+  <Table Name="dbo.EXERCISE" Member="Exercises">
+    <Type Name="Exercise">
+      <Column Name="ExerciseID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="LessonID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Contents" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Result" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="LESSON_EXERCISE" Member="Lesson" ThisKey="LessonID" OtherKey="LessonID" Type="Lesson" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GAME" Member="Games">
+    <Type Name="Game">
+      <Column Name="GameID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GameCategoryID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GameName" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="GameType" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Help" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="GAME_GAME_RESULT" Member="GameResults" ThisKey="GameID" OtherKey="GameID" Type="GameResult" />
+      <Association Name="GAME_CATEGORY_GAME" Member="GameCatelogy" ThisKey="GameCategoryID" OtherKey="GameCategoryID" Type="GameCatelogy" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GAME_CATEGORY" Member="GameCatelogies">
+    <Type Name="GameCatelogy">
+      <Column Name="GameCategoryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GameID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="GameCategoryname" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="IsShowInHomePage" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="GAME_CATEGORY_GAME" Member="Games" ThisKey="GameCategoryID" OtherKey="GameCategoryID" Type="Game" />
+    </Type>
+  </Table>
+  <Table Name="dbo.GAME_RESULT" Member="GameResults">
+    <Type Name="GameResult">
+      <Column Name="GameResultID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="GameID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="GameScores" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="GameType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Association Name="GAME_GAME_RESULT" Member="Game" ThisKey="GameID" OtherKey="GameID" Type="Game" IsForeignKey="true" />
+      <Association Name="USER_GAME_RESULT" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LESSON" Member="Lessons">
+    <Type Name="Lesson">
+      <Column Name="LessonID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="PartID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="LessonName" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="LESSON_EXERCISE" Member="Exercises" ThisKey="LessonID" OtherKey="LessonID" Type="Exercise" />
+      <Association Name="LESSON_THEORY" Member="Theories" ThisKey="LessonID" OtherKey="LessonID" Type="Theory" />
+      <Association Name="PART_LESSON" Member="Part" ThisKey="PartID" OtherKey="PartID" Type="Part" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[LOG]" Member="Logs">
+    <Type Name="Log">
+      <Column Name="LogID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Contents" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Association Name="USER_LOG" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.MAIL_BOX" Member="MailBoxes">
+    <Type Name="MailBox">
+      <Column Name="MailBoxID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="Subject" Type="System.String" DbType="NVarChar(250)" CanBeNull="true" />
+      <Column Name="Contents" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Type" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="UserSend" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="USER_MAIL_BOX" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.PART" Member="Parts">
+    <Type Name="Part">
+      <Column Name="PartID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SubjectID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="PartName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="PART_LESSON" Member="Lessons" ThisKey="PartID" OtherKey="PartID" Type="Lesson" />
+      <Association Name="PART_TEST" Member="Tests" ThisKey="PartID" OtherKey="PartID" Type="Test" />
+      <Association Name="SUBJECT_PART" Member="Subject" ThisKey="SubjectID" OtherKey="SubjectID" Type="Subject" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.QUESTION" Member="Questions">
+    <Type Name="Question">
+      <Column Name="QuestionID" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TestID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Answer" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="QUESTION_REPLY" Member="Replies" ThisKey="QuestionID" OtherKey="QuestionID" Type="Reply" />
+      <Association Name="TEST_QUESTION" Member="Test" ThisKey="TestID" OtherKey="TestID" Type="Test" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.REPLY" Member="Replies">
+    <Type Name="Reply">
+      <Column Name="ReplyID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="QuestionID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Contents" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="QUESTION_REPLY" Member="Question" ThisKey="QuestionID" OtherKey="QuestionID" Type="Question" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ROLE" Member="Roles">
+    <Type Name="Role">
+      <Column Name="RoleID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="RoleName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="ROLE_USER_GROUP" Member="UserGroups" ThisKey="RoleID" OtherKey="RoleID" Type="UserGroup" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SUBJECT" Member="Subjects">
+    <Type Name="Subject">
+      <Column Name="SubjectID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="ClassID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SubjectName" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Association Name="SUBJECT_PART" Member="Parts" ThisKey="SubjectID" OtherKey="SubjectID" Type="Part" />
+      <Association Name="CLASS_SUBJECT" Member="Class" ThisKey="ClassID" OtherKey="ClassID" Type="Class" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TEST" Member="Tests">
+    <Type Name="Test">
+      <Column Name="TestID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="PartID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="TestName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="[_Level]" Member="_Level" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Quantity" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Association Name="TEST_QUESTION" Member="Questions" ThisKey="TestID" OtherKey="TestID" Type="Question" />
+      <Association Name="TEST_TEST_RESULT" Member="TestResults" ThisKey="TestID" OtherKey="TestID" Type="TestResult" />
+      <Association Name="PART_TEST" Member="Part" ThisKey="PartID" OtherKey="PartID" Type="Part" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TEST_RESULT" Member="TestResults">
+    <Type Name="TestResult">
+      <Column Name="TestResultID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier" CanBeNull="true" />
+      <Column Name="TestID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Time" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Date" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Result" Type="System.String" DbType="NChar(10)" CanBeNull="true" />
+      <Association Name="TEST_TEST_RESULT" Member="Test" ThisKey="TestID" OtherKey="TestID" Type="Test" IsForeignKey="true" />
+      <Association Name="USER_TEST_RESULT" Member="User" ThisKey="UserID" OtherKey="UserID" Type="User" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.THEORY" Member="Theories">
+    <Type Name="Theory">
+      <Column Name="TheoryID" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="LessonID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="Contents" Type="System.String" DbType="NText" CanBeNull="true" UpdateCheck="Never" />
+      <Column Name="Description" Type="System.String" DbType="NVarChar(500)" CanBeNull="true" />
+      <Column Name="Active" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Association Name="LESSON_THEORY" Member="Lesson" ThisKey="LessonID" OtherKey="LessonID" Type="Lesson" IsForeignKey="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.[USER]" Member="Users">
+    <Type Name="User">
+      <Column Name="UserID" Type="System.Guid" DbType="UniqueIdentifier NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GroupID" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FistName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="LastName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="UserName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="FamilyName" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="PassWord" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="Birthday" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="Address" Type="System.String" DbType="NVarChar(150)" CanBeNull="true" />
+      <Column Name="Phone" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="DateRegister" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Association Name="USER_ARTICE" Member="Artices" ThisKey="UserID" OtherKey="UserID" Type="Artice" />
+      <Association Name="USER_GAME_RESULT" Member="GameResults" ThisKey="UserID" OtherKey="UserID" Type="GameResult" />
+      <Association Name="USER_LOG" Member="Logs" ThisKey="UserID" OtherKey="UserID" Type="Log" />
+      <Association Name="USER_MAIL_BOX" Member="MailBoxes" ThisKey="UserID" OtherKey="UserID" Type="MailBox" />
+      <Association Name="USER_TEST_RESULT" Member="TestResults" ThisKey="UserID" OtherKey="UserID" Type="TestResult" />
+      <Association Name="USER_GROUP_USER" Member="UserGroup" ThisKey="GroupID" OtherKey="GroupID" Type="UserGroup" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>
