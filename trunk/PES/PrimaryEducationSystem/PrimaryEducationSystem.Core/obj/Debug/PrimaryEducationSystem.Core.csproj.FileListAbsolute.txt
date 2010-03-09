@@ -1,0 +1,6 @@
+E:\LAM VIEC\IMAGINE\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\ResolveAssemblyReference.cache
+E:\LAM VIEC\IMAGINE\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.dll.config
+E:\LAM VIEC\IMAGINE\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.dll
+E:\LAM VIEC\IMAGINE\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.pdb
+E:\LAM VIEC\IMAGINE\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.dll
+E:\LAM VIEC\IMAGINE\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.pdb
