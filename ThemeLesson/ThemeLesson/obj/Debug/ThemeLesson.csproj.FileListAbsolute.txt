@@ -1,0 +1,12 @@
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\Bin\Debug\AppManifest.xaml
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\Bin\Debug\ThemeLesson.dll
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\Bin\Debug\ThemeLesson.pdb
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\Bin\Debug\ThemeLesson.xap
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\Bin\Debug\TestPage.html
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\App.g.cs
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\MainPage.g.cs
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\ThemeLesson.g.resources
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\ThemeLesson.dll
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\ThemeLesson.pdb
+C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\XapCacheFile.xml

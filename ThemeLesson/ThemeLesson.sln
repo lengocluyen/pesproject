@@ -1,0 +1,27 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "ThemeLessonSite", "ThemeLessonSite\", "{3DAEDF04-19A3-4936-8F2D-238A0F2B5E9C}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		ProjOutputReferences = "{d11fac4d-7080-4669-9454-2c93d5c9954f}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThemeLesson", "ThemeLesson\ThemeLesson.csproj", "{D11FAC4D-7080-4669-9454-2C93D5C9954F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3DAEDF04-19A3-4936-8F2D-238A0F2B5E9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3DAEDF04-19A3-4936-8F2D-238A0F2B5E9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3DAEDF04-19A3-4936-8F2D-238A0F2B5E9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3DAEDF04-19A3-4936-8F2D-238A0F2B5E9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D11FAC4D-7080-4669-9454-2C93D5C9954F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D11FAC4D-7080-4669-9454-2C93D5C9954F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D11FAC4D-7080-4669-9454-2C93D5C9954F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D11FAC4D-7080-4669-9454-2C93D5C9954F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

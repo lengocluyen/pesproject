@@ -1,0 +1,11 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	x:Class="ThemeLesson.MainPage"
+	Width="1191" Height="842">
+
+	<Grid x:Name="LayoutRoot" Background="White">
+		<Image Margin="0,0,16,38" Source="istock_000006407276.jpg" Stretch="Fill"/>
+		<Image Margin="52,0,81,78" Source="91.png" Stretch="Fill"/>
+	</Grid>
+</UserControl>
