@@ -10,3 +10,15 @@ C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects
 C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\ThemeLesson.dll
 C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\ThemeLesson.pdb
 C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\ThemeLesson\ThemeLesson\obj\Debug\XapCacheFile.xml
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\Bin\Debug\AppManifest.xaml
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\Bin\Debug\ThemeLesson.dll
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\Bin\Debug\ThemeLesson.pdb
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\Bin\Debug\ThemeLesson.xap
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\Bin\Debug\TestPage.html
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\obj\Debug\ResolveAssemblyReference.cache
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\obj\Debug\App.g.cs
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\obj\Debug\MainPage.g.cs
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\obj\Debug\ThemeLesson.g.resources
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\obj\Debug\ThemeLesson.dll
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\obj\Debug\ThemeLesson.pdb
+D:\IMAGINECUP 2010\SourceNew\ThemeLesson\ThemeLesson\obj\Debug\XapCacheFile.xml
