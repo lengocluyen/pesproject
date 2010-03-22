@@ -45,6 +45,7 @@ namespace PrimaryEducationSystem.Core
                 GameResult gold = GetGameResult(gnew.GameResultID);
                 gold.GameScores = gnew.GameScores;
                 gold.GameType = gnew.GameType;
+                gold.MediaFile = gnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
             }

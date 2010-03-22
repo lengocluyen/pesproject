@@ -46,6 +46,7 @@ namespace PrimaryEducationSystem.Core
                 lsold.PartID = lsnew.PartID;
                 lsold.LessonName = lsnew.LessonName;
                 lsold.Description = lsnew.Description;
+                lsold.MediaFile = lsnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
             }

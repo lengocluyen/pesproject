@@ -46,6 +46,7 @@ namespace PrimaryEducationSystem.Core
                 pold.SubjectID = pnew.SubjectID;
                 pold.PartName = pnew.PartName;
                 pold.Description = pnew.Description;
+                pold.MediaFile = pnew.MediaFile;
                 return 1;
             }
             catch 

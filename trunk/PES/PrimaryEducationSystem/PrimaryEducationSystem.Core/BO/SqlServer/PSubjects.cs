@@ -52,6 +52,7 @@ namespace PrimaryEducationSystem.Core
                 subold.ClassID = subnew.ClassID;
                 subold.SubjectName = subnew.SubjectName;
                 subold.Description = subnew.Description;
+                subold.MediaFile = subnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
             }

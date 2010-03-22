@@ -49,6 +49,7 @@ namespace PrimaryEducationSystem.Core
                 Question quesold = GetQuestions(quesnew.QuestionID);
                 quesold.TestID = quesnew.TestID;
                 quesold.Answer = quesnew.Answer;
+                quesold.MediaFile = quesnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
 

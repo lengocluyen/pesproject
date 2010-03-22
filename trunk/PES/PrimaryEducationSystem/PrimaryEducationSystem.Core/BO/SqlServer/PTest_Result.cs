@@ -53,6 +53,7 @@ namespace PrimaryEducationSystem.Core
                 testold.Time = testnew.Time;
                 testold.Date = testnew.Date;
                 testold.Result = testnew.Result;
+                testold.MediaFile = testnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
             }
