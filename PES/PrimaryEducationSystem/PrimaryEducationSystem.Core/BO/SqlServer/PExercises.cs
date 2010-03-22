@@ -47,6 +47,7 @@ namespace PrimaryEducationSystem.Core
                 exold.LessonID = exnew.LessonID;
                 exold.Contents = exnew.Contents;
                 exold.Result = exnew.Result;
+                exold.MediaFile = exnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
             }

@@ -47,6 +47,7 @@ namespace PrimaryEducationSystem.Core
                 Class clnew = ob as Class;
                 Class clold = GetClass(clnew.ClassID);
                 clold.ClassName = clnew.ClassName;
+                clold.MediaFile = clnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
 

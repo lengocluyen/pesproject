@@ -53,6 +53,7 @@ namespace PrimaryEducationSystem.Core
                 Reply repold = GetReply(repnew.ReplyID);
                 repold.QuestionID = repnew.QuestionID;
                 repold.Contents = repnew.Contents;
+                repold.MediaFile = repnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
             }

@@ -47,6 +47,7 @@ namespace PrimaryEducationSystem.Core
                 gold.GameName = gnew.GameName;
                 gold.GameType = gnew.GameType;
                 gold.Help = gnew.Help;
+                gold.MediaFile = gnew.MediaFile;
                 return 1;
             }
             catch 

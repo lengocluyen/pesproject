@@ -416,7 +416,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_ARTICE", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
+		[Association(Name="User_Artice", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
 		public User User
 		{
 			get
@@ -594,7 +594,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_GROUP_USER", Storage="_Users", ThisKey="GroupID", OtherKey="GroupID")]
+		[Association(Name="UserGroup_User", Storage="_Users", ThisKey="GroupID", OtherKey="GroupID")]
 		public EntitySet<User> Users
 		{
 			get
@@ -607,7 +607,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="ROLE_USER_GROUP", Storage="_Role", ThisKey="RoleID", OtherKey="RoleID", IsForeignKey=true)]
+		[Association(Name="Role_UserGroup", Storage="_Role", ThisKey="RoleID", OtherKey="RoleID", IsForeignKey=true)]
 		public Role Role
 		{
 			get
@@ -684,6 +684,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _ClassName;
 		
+		private string _MediaFile;
+		
 		private EntitySet<Subject> _Subjects;
 		
     #region Extensibility Method Definitions
@@ -694,6 +696,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnClassIDChanged();
     partial void OnClassNameChanging(string value);
     partial void OnClassNameChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Class()
@@ -742,7 +746,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="CLASS_SUBJECT", Storage="_Subjects", ThisKey="ClassID", OtherKey="ClassID")]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Class_Subject", Storage="_Subjects", ThisKey="ClassID", OtherKey="ClassID")]
 		public EntitySet<Subject> Subjects
 		{
 			get
@@ -802,6 +826,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _Result;
 		
+		private string _MediaFile;
+		
 		private EntityRef<Lesson> _Lesson;
 		
     #region Extensibility Method Definitions
@@ -816,6 +842,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnContentsChanged();
     partial void OnResultChanging(string value);
     partial void OnResultChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Exercise()
@@ -908,7 +936,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="LESSON_EXERCISE", Storage="_Lesson", ThisKey="LessonID", OtherKey="LessonID", IsForeignKey=true)]
+		[Column(Storage="_MediaFile", DbType="NVarChar(50)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Lesson_Exercise", Storage="_Lesson", ThisKey="LessonID", OtherKey="LessonID", IsForeignKey=true)]
 		public Lesson Lesson
 		{
 			get
@@ -979,6 +1027,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _Help;
 		
+		private string _MediaFile;
+		
 		private EntitySet<GameResult> _GameResults;
 		
 		private EntityRef<GameCatelogy> _GameCatelogy;
@@ -997,6 +1047,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnGameTypeChanged();
     partial void OnHelpChanging(string value);
     partial void OnHelpChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Game()
@@ -1110,7 +1162,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="GAME_GAME_RESULT", Storage="_GameResults", ThisKey="GameID", OtherKey="GameID")]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Game_GameResult", Storage="_GameResults", ThisKey="GameID", OtherKey="GameID")]
 		public EntitySet<GameResult> GameResults
 		{
 			get
@@ -1123,7 +1195,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="GAME_CATEGORY_GAME", Storage="_GameCatelogy", ThisKey="GameCategoryID", OtherKey="GameCategoryID", IsForeignKey=true)]
+		[Association(Name="GameCatelogy_Game", Storage="_GameCatelogy", ThisKey="GameCategoryID", OtherKey="GameCategoryID", IsForeignKey=true)]
 		public GameCatelogy GameCatelogy
 		{
 			get
@@ -1306,7 +1378,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="GAME_CATEGORY_GAME", Storage="_Games", ThisKey="GameCategoryID", OtherKey="GameCategoryID")]
+		[Association(Name="GameCatelogy_Game", Storage="_Games", ThisKey="GameCategoryID", OtherKey="GameCategoryID")]
 		public EntitySet<Game> Games
 		{
 			get
@@ -1368,6 +1440,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _GameType;
 		
+		private string _MediaFile;
+		
 		private EntityRef<Game> _Game;
 		
 		private EntityRef<User> _User;
@@ -1386,6 +1460,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnGameScoresChanged();
     partial void OnGameTypeChanging(string value);
     partial void OnGameTypeChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public GameResult()
@@ -1503,7 +1579,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="GAME_GAME_RESULT", Storage="_Game", ThisKey="GameID", OtherKey="GameID", IsForeignKey=true)]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Game_GameResult", Storage="_Game", ThisKey="GameID", OtherKey="GameID", IsForeignKey=true)]
 		public Game Game
 		{
 			get
@@ -1537,7 +1633,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_GAME_RESULT", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
+		[Association(Name="User_GameResult", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
 		public User User
 		{
 			get
@@ -1606,6 +1702,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _Description;
 		
+		private string _MediaFile;
+		
 		private EntitySet<Exercise> _Exercises;
 		
 		private EntitySet<Theory> _Theories;
@@ -1624,6 +1722,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnLessonNameChanged();
     partial void OnDescriptionChanging(string value);
     partial void OnDescriptionChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Lesson()
@@ -1718,7 +1818,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="LESSON_EXERCISE", Storage="_Exercises", ThisKey="LessonID", OtherKey="LessonID")]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Lesson_Exercise", Storage="_Exercises", ThisKey="LessonID", OtherKey="LessonID")]
 		public EntitySet<Exercise> Exercises
 		{
 			get
@@ -1731,7 +1851,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="LESSON_THEORY", Storage="_Theories", ThisKey="LessonID", OtherKey="LessonID")]
+		[Association(Name="Lesson_Theory", Storage="_Theories", ThisKey="LessonID", OtherKey="LessonID")]
 		public EntitySet<Theory> Theories
 		{
 			get
@@ -1744,7 +1864,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="PART_LESSON", Storage="_Part", ThisKey="PartID", OtherKey="PartID", IsForeignKey=true)]
+		[Association(Name="Part_Lesson", Storage="_Part", ThisKey="PartID", OtherKey="PartID", IsForeignKey=true)]
 		public Part Part
 		{
 			get
@@ -1943,7 +2063,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_LOG", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
+		[Association(Name="User_Log", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
 		public User User
 		{
 			get
@@ -2190,7 +2310,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_MAIL_BOX", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
+		[Association(Name="User_MailBox", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
 		public User User
 		{
 			get
@@ -2259,6 +2379,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _Description;
 		
+		private string _MediaFile;
+		
 		private EntitySet<Lesson> _Lessons;
 		
 		private EntitySet<Test> _Tests;
@@ -2277,6 +2399,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnPartNameChanged();
     partial void OnDescriptionChanging(string value);
     partial void OnDescriptionChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Part()
@@ -2371,7 +2495,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="PART_LESSON", Storage="_Lessons", ThisKey="PartID", OtherKey="PartID")]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Part_Lesson", Storage="_Lessons", ThisKey="PartID", OtherKey="PartID")]
 		public EntitySet<Lesson> Lessons
 		{
 			get
@@ -2384,7 +2528,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="PART_TEST", Storage="_Tests", ThisKey="PartID", OtherKey="PartID")]
+		[Association(Name="Part_Test", Storage="_Tests", ThisKey="PartID", OtherKey="PartID")]
 		public EntitySet<Test> Tests
 		{
 			get
@@ -2397,7 +2541,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="SUBJECT_PART", Storage="_Subject", ThisKey="SubjectID", OtherKey="SubjectID", IsForeignKey=true)]
+		[Association(Name="Subject_Part", Storage="_Subject", ThisKey="SubjectID", OtherKey="SubjectID", IsForeignKey=true)]
 		public Subject Subject
 		{
 			get
@@ -2488,6 +2632,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _Answer;
 		
+		private string _MediaFile;
+		
 		private EntitySet<Reply> _Replies;
 		
 		private EntityRef<Test> _Test;
@@ -2502,6 +2648,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnTestIDChanged();
     partial void OnAnswerChanging(string value);
     partial void OnAnswerChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Question()
@@ -2575,7 +2723,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="QUESTION_REPLY", Storage="_Replies", ThisKey="QuestionID", OtherKey="QuestionID")]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Question_Reply", Storage="_Replies", ThisKey="QuestionID", OtherKey="QuestionID")]
 		public EntitySet<Reply> Replies
 		{
 			get
@@ -2588,7 +2756,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="TEST_QUESTION", Storage="_Test", ThisKey="TestID", OtherKey="TestID", IsForeignKey=true)]
+		[Association(Name="Test_Question", Storage="_Test", ThisKey="TestID", OtherKey="TestID", IsForeignKey=true)]
 		public Test Test
 		{
 			get
@@ -2667,6 +2835,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _Contents;
 		
+		private string _MediaFile;
+		
 		private EntityRef<Question> _Question;
 		
     #region Extensibility Method Definitions
@@ -2679,6 +2849,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnQuestionIDChanged();
     partial void OnContentsChanging(string value);
     partial void OnContentsChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Reply()
@@ -2751,7 +2923,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="QUESTION_REPLY", Storage="_Question", ThisKey="QuestionID", OtherKey="QuestionID", IsForeignKey=true)]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Question_Reply", Storage="_Question", ThisKey="QuestionID", OtherKey="QuestionID", IsForeignKey=true)]
 		public Question Question
 		{
 			get
@@ -2898,7 +3090,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="ROLE_USER_GROUP", Storage="_UserGroups", ThisKey="RoleID", OtherKey="RoleID")]
+		[Association(Name="Role_UserGroup", Storage="_UserGroups", ThisKey="RoleID", OtherKey="RoleID")]
 		public EntitySet<UserGroup> UserGroups
 		{
 			get
@@ -2958,6 +3150,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _Description;
 		
+		private string _MediaFile;
+		
 		private EntitySet<Part> _Parts;
 		
 		private EntityRef<Class> _Class;
@@ -2974,6 +3168,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnSubjectNameChanged();
     partial void OnDescriptionChanging(string value);
     partial void OnDescriptionChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Subject()
@@ -3067,7 +3263,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="SUBJECT_PART", Storage="_Parts", ThisKey="SubjectID", OtherKey="SubjectID")]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Subject_Part", Storage="_Parts", ThisKey="SubjectID", OtherKey="SubjectID")]
 		public EntitySet<Part> Parts
 		{
 			get
@@ -3080,7 +3296,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="CLASS_SUBJECT", Storage="_Class", ThisKey="ClassID", OtherKey="ClassID", IsForeignKey=true)]
+		[Association(Name="Class_Subject", Storage="_Class", ThisKey="ClassID", OtherKey="ClassID", IsForeignKey=true)]
 		public Class Class
 		{
 			get
@@ -3163,6 +3379,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private System.Nullable<int> _Quantity;
 		
+		private string _MediaFile;
+		
 		private EntitySet<Question> _Questions;
 		
 		private EntitySet<TestResult> _TestResults;
@@ -3183,6 +3401,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void On_LevelChanged();
     partial void OnQuantityChanging(System.Nullable<int> value);
     partial void OnQuantityChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Test()
@@ -3297,7 +3517,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="TEST_QUESTION", Storage="_Questions", ThisKey="TestID", OtherKey="TestID")]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Test_Question", Storage="_Questions", ThisKey="TestID", OtherKey="TestID")]
 		public EntitySet<Question> Questions
 		{
 			get
@@ -3310,7 +3550,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="TEST_TEST_RESULT", Storage="_TestResults", ThisKey="TestID", OtherKey="TestID")]
+		[Association(Name="Test_TestResult", Storage="_TestResults", ThisKey="TestID", OtherKey="TestID")]
 		public EntitySet<TestResult> TestResults
 		{
 			get
@@ -3323,7 +3563,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="PART_TEST", Storage="_Part", ThisKey="PartID", OtherKey="PartID", IsForeignKey=true)]
+		[Association(Name="Part_Test", Storage="_Part", ThisKey="PartID", OtherKey="PartID", IsForeignKey=true)]
 		public Part Part
 		{
 			get
@@ -3420,6 +3660,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private string _Result;
 		
+		private string _MediaFile;
+		
 		private EntityRef<Test> _Test;
 		
 		private EntityRef<User> _User;
@@ -3440,6 +3682,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnDateChanged();
     partial void OnResultChanging(string value);
     partial void OnResultChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public TestResult()
@@ -3577,7 +3821,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="TEST_TEST_RESULT", Storage="_Test", ThisKey="TestID", OtherKey="TestID", IsForeignKey=true)]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Test_TestResult", Storage="_Test", ThisKey="TestID", OtherKey="TestID", IsForeignKey=true)]
 		public Test Test
 		{
 			get
@@ -3611,7 +3875,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_TEST_RESULT", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
+		[Association(Name="User_TestResult", Storage="_User", ThisKey="UserID", OtherKey="UserID", IsForeignKey=true)]
 		public User User
 		{
 			get
@@ -3682,6 +3946,8 @@ namespace PrimaryEducationSystem.Core.Database
 		
 		private System.Nullable<bool> _Active;
 		
+		private string _MediaFile;
+		
 		private EntityRef<Lesson> _Lesson;
 		
     #region Extensibility Method Definitions
@@ -3698,6 +3964,8 @@ namespace PrimaryEducationSystem.Core.Database
     partial void OnDescriptionChanged();
     partial void OnActiveChanging(System.Nullable<bool> value);
     partial void OnActiveChanged();
+    partial void OnMediaFileChanging(string value);
+    partial void OnMediaFileChanged();
     #endregion
 		
 		public Theory()
@@ -3810,7 +4078,27 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="LESSON_THEORY", Storage="_Lesson", ThisKey="LessonID", OtherKey="LessonID", IsForeignKey=true)]
+		[Column(Storage="_MediaFile", DbType="NVarChar(200)")]
+		public string MediaFile
+		{
+			get
+			{
+				return this._MediaFile;
+			}
+			set
+			{
+				if ((this._MediaFile != value))
+				{
+					this.OnMediaFileChanging(value);
+					this.SendPropertyChanging();
+					this._MediaFile = value;
+					this.SendPropertyChanged("MediaFile");
+					this.OnMediaFileChanged();
+				}
+			}
+		}
+		
+		[Association(Name="Lesson_Theory", Storage="_Lesson", ThisKey="LessonID", OtherKey="LessonID", IsForeignKey=true)]
 		public Lesson Lesson
 		{
 			get
@@ -4192,7 +4480,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_ARTICE", Storage="_Artices", ThisKey="UserID", OtherKey="UserID")]
+		[Association(Name="User_Artice", Storage="_Artices", ThisKey="UserID", OtherKey="UserID")]
 		public EntitySet<Artice> Artices
 		{
 			get
@@ -4205,7 +4493,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_GAME_RESULT", Storage="_GameResults", ThisKey="UserID", OtherKey="UserID")]
+		[Association(Name="User_GameResult", Storage="_GameResults", ThisKey="UserID", OtherKey="UserID")]
 		public EntitySet<GameResult> GameResults
 		{
 			get
@@ -4218,7 +4506,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_LOG", Storage="_Logs", ThisKey="UserID", OtherKey="UserID")]
+		[Association(Name="User_Log", Storage="_Logs", ThisKey="UserID", OtherKey="UserID")]
 		public EntitySet<Log> Logs
 		{
 			get
@@ -4231,7 +4519,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_MAIL_BOX", Storage="_MailBoxes", ThisKey="UserID", OtherKey="UserID")]
+		[Association(Name="User_MailBox", Storage="_MailBoxes", ThisKey="UserID", OtherKey="UserID")]
 		public EntitySet<MailBox> MailBoxes
 		{
 			get
@@ -4244,7 +4532,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_TEST_RESULT", Storage="_TestResults", ThisKey="UserID", OtherKey="UserID")]
+		[Association(Name="User_TestResult", Storage="_TestResults", ThisKey="UserID", OtherKey="UserID")]
 		public EntitySet<TestResult> TestResults
 		{
 			get
@@ -4257,7 +4545,7 @@ namespace PrimaryEducationSystem.Core.Database
 			}
 		}
 		
-		[Association(Name="USER_GROUP_USER", Storage="_UserGroup", ThisKey="GroupID", OtherKey="GroupID", IsForeignKey=true)]
+		[Association(Name="UserGroup_User", Storage="_UserGroup", ThisKey="GroupID", OtherKey="GroupID", IsForeignKey=true)]
 		public UserGroup UserGroup
 		{
 			get

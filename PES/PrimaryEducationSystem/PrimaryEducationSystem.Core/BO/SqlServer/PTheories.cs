@@ -51,6 +51,7 @@ namespace PrimaryEducationSystem.Core
                 theoold.Contents = theonew.Contents;
                 theoold.Description = theonew.Description;
                 theoold.Active = theonew.Active;
+                theoold.MediaFile = theonew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
             }

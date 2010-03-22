@@ -52,6 +52,7 @@ namespace PrimaryEducationSystem.Core
                 testold.TestName = testnew.TestName;
                 testold._Level = testnew._Level;
                 testold.Quantity = testnew.Quantity;
+                testold.MediaFile = testnew.MediaFile;
                 DBClose.SubmitHandle();
                 return 1;
             }

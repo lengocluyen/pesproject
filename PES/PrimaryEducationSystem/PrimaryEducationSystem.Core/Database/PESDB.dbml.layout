@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 21.125, 15.25" name="PESDB">
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 21.125, 15.5" name="PESDB">
   <DataContextMoniker Name="/PESDBDataContext" />
   <nestedChildShapes>
     <classShape Id="a220784e-d130-460f-9062-251caabb070a" absoluteBounds="7.5, 3, 2, 1.7982710774739594">
@@ -14,22 +14,22 @@
         <elementListCompartment Id="21150457-2651-47d3-bbc1-85e3faa436f7" absoluteBounds="9.265, 6.335, 1.9700000000000002, 1.0417582194010415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="29e2fb6e-681c-4e99-881f-72def659d68a" absoluteBounds="5.125, 10.625, 2, 1.2087325032552088">
+    <classShape Id="29e2fb6e-681c-4e99-881f-72def659d68a" absoluteBounds="5.125, 10.625, 2, 1.4052453613281255">
       <DataClassMoniker Name="/PESDBDataContext/Class" />
       <nestedChildShapes>
-        <elementListCompartment Id="bceeeaf9-9ded-4717-abef-c9142b2d2cd2" absoluteBounds="5.1400000000000006, 11.085, 1.9700000000000002, 0.64873250325520826" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="bceeeaf9-9ded-4717-abef-c9142b2d2cd2" absoluteBounds="5.1400000000000006, 11.085, 1.9700000000000002, 0.845245361328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="4ee882cc-0f7c-4cd5-80dc-648d3b05823a" absoluteBounds="14.125, 13.25, 2, 1.6017582194010416">
+    <classShape Id="4ee882cc-0f7c-4cd5-80dc-648d3b05823a" absoluteBounds="14.125, 13.25, 2, 1.7982710774739594">
       <DataClassMoniker Name="/PESDBDataContext/Exercise" />
       <nestedChildShapes>
-        <elementListCompartment Id="fdea3cc8-975b-4779-8e51-bb68856bef4e" absoluteBounds="14.14, 13.71, 1.9700000000000002, 1.0417582194010415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="fdea3cc8-975b-4779-8e51-bb68856bef4e" absoluteBounds="14.14, 13.71, 1.9700000000000002, 1.2382710774739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="17bd4fd2-321c-4bea-affc-b2e3d15c3026" absoluteBounds="2.25, 10.375, 2, 1.7982710774739594">
+    <classShape Id="17bd4fd2-321c-4bea-affc-b2e3d15c3026" absoluteBounds="2.25, 10.375, 2, 1.9947839355468755">
       <DataClassMoniker Name="/PESDBDataContext/Game" />
       <nestedChildShapes>
-        <elementListCompartment Id="69db4bf0-9b11-4a5f-8efd-b32233b28b8a" absoluteBounds="2.2649999999999997, 10.835, 1.9700000000000002, 1.2382710774739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="69db4bf0-9b11-4a5f-8efd-b32233b28b8a" absoluteBounds="2.2649999999999997, 10.835, 1.9700000000000002, 1.434783935546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="4c425dce-1a39-47ad-a026-6f51e5602f55" absoluteBounds="2, 13.125, 2, 1.6017582194010416">
@@ -38,16 +38,16 @@
         <elementListCompartment Id="c6cf9d07-9c3a-4ed5-b5d5-14b5de9a5131" absoluteBounds="2.0150000000000006, 13.585, 1.9700000000000002, 1.0417582194010415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="7ca1ce8f-b633-4259-8cc7-4c71b921866f" absoluteBounds="2.375, 7.75, 2, 1.7982710774739594">
+    <classShape Id="7ca1ce8f-b633-4259-8cc7-4c71b921866f" absoluteBounds="2.375, 7.75, 2, 1.9947839355468755">
       <DataClassMoniker Name="/PESDBDataContext/GameResult" />
       <nestedChildShapes>
-        <elementListCompartment Id="0242a5e0-2c7f-4c50-8698-603cb0212f97" absoluteBounds="2.3900000000000006, 8.21, 1.9700000000000002, 1.2382710774739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="0242a5e0-2c7f-4c50-8698-603cb0212f97" absoluteBounds="2.3900000000000006, 8.21, 1.9700000000000002, 1.434783935546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="7b475fb9-6a3d-4f05-9758-4edf7d156fb5" absoluteBounds="10.75, 13.25, 2, 1.6017582194010416">
+    <classShape Id="7b475fb9-6a3d-4f05-9758-4edf7d156fb5" absoluteBounds="10.75, 13.25, 2, 1.7982710774739594">
       <DataClassMoniker Name="/PESDBDataContext/Lesson" />
       <nestedChildShapes>
-        <elementListCompartment Id="d93cf2d7-e182-4063-98af-ca428813f716" absoluteBounds="10.765, 13.71, 1.9700000000000002, 1.0417582194010415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="d93cf2d7-e182-4063-98af-ca428813f716" absoluteBounds="10.765, 13.71, 1.9700000000000002, 1.2382710774739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="102c6728-04a1-4c82-9eb2-fe3867a0559e" absoluteBounds="5, 3.125, 2, 1.6017582194010416">
@@ -62,22 +62,22 @@
         <elementListCompartment Id="4662f024-9be3-46a2-874c-96862e9fefb2" absoluteBounds="2.5150000000000006, 5.3350000000000009, 1.9700000000000002, 1.6312967936197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="171236d4-edac-47b2-8812-b310b294c2a2" absoluteBounds="10.625, 10.5, 2, 1.6017582194010414">
+    <classShape Id="171236d4-edac-47b2-8812-b310b294c2a2" absoluteBounds="10.625, 10.5, 2, 1.7982710774739594">
       <DataClassMoniker Name="/PESDBDataContext/Part" />
       <nestedChildShapes>
-        <elementListCompartment Id="57c45484-6324-4c48-acbc-056d8cacbc79" absoluteBounds="10.64, 10.96, 1.9700000000000002, 1.0417582194010415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="57c45484-6324-4c48-acbc-056d8cacbc79" absoluteBounds="10.64, 10.96, 1.9700000000000002, 1.2382710774739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="e66b8a41-d221-41fe-9603-e44e87027c9c" absoluteBounds="16.125, 10.625, 2, 1.4052453613281251">
+    <classShape Id="e66b8a41-d221-41fe-9603-e44e87027c9c" absoluteBounds="16.125, 10.625, 2, 1.6017582194010416">
       <DataClassMoniker Name="/PESDBDataContext/Question" />
       <nestedChildShapes>
-        <elementListCompartment Id="27284830-6853-431b-84d9-fbbf8166bb2b" absoluteBounds="16.14, 11.085, 1.9700000000000002, 0.845245361328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="27284830-6853-431b-84d9-fbbf8166bb2b" absoluteBounds="16.14, 11.085, 1.9700000000000002, 1.0417582194010415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="f9935469-6ecb-4ac0-822b-a2edf1d7590b" absoluteBounds="18.875, 10.625, 2, 1.4052453613281251">
+    <classShape Id="f9935469-6ecb-4ac0-822b-a2edf1d7590b" absoluteBounds="18.875, 10.625, 2, 1.6017582194010416">
       <DataClassMoniker Name="/PESDBDataContext/Reply" />
       <nestedChildShapes>
-        <elementListCompartment Id="dd6d1569-b3ed-4714-9135-1c73a407f046" absoluteBounds="18.89, 11.085, 1.9700000000000002, 0.845245361328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="dd6d1569-b3ed-4714-9135-1c73a407f046" absoluteBounds="18.89, 11.085, 1.9700000000000002, 1.0417582194010415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="7bbc9c1f-4faf-41bb-81c7-52c09a348c89" absoluteBounds="12.375, 6, 2, 1.4052453613281255">
@@ -86,28 +86,28 @@
         <elementListCompartment Id="3bc62705-c6c0-4a5d-b7fe-9680858ebbe4" absoluteBounds="12.39, 6.46, 1.9700000000000002, 0.845245361328125" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="30f79fed-2440-4fb7-8985-f24dea096244" absoluteBounds="7.875, 10.5, 2, 1.6017582194010414">
+    <classShape Id="30f79fed-2440-4fb7-8985-f24dea096244" absoluteBounds="7.875, 10.5, 2, 1.7982710774739594">
       <DataClassMoniker Name="/PESDBDataContext/Subject" />
       <nestedChildShapes>
-        <elementListCompartment Id="25bafcf2-a8c7-4b1f-b06f-c18f1a73f462" absoluteBounds="7.8900000000000006, 10.96, 1.9700000000000002, 1.0417582194010415" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="25bafcf2-a8c7-4b1f-b06f-c18f1a73f462" absoluteBounds="7.8900000000000006, 10.96, 1.9700000000000002, 1.2382710774739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="eccc81ed-74ac-4b13-9084-a24dc7e4946b" absoluteBounds="13.375, 10.375, 2, 1.7982710774739577">
+    <classShape Id="eccc81ed-74ac-4b13-9084-a24dc7e4946b" absoluteBounds="13.375, 10.375, 2, 1.9947839355468755">
       <DataClassMoniker Name="/PESDBDataContext/Test" />
       <nestedChildShapes>
-        <elementListCompartment Id="fd84f3d1-217d-41e7-9ed4-6f88477ef4c7" absoluteBounds="13.39, 10.835, 1.9700000000000002, 1.2382710774739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="fd84f3d1-217d-41e7-9ed4-6f88477ef4c7" absoluteBounds="13.39, 10.835, 1.9700000000000002, 1.434783935546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="6cceb652-0e6f-44ae-8f87-93e0fe19b869" absoluteBounds="13.5, 7.75, 2, 1.9947839355468755">
+    <classShape Id="6cceb652-0e6f-44ae-8f87-93e0fe19b869" absoluteBounds="13.5, 7.75, 2, 2.1912967936197916">
       <DataClassMoniker Name="/PESDBDataContext/TestResult" />
       <nestedChildShapes>
-        <elementListCompartment Id="3b36cb8b-738b-41cf-8261-3cfbb53a09c0" absoluteBounds="13.515, 8.21, 1.9700000000000002, 1.434783935546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="3b36cb8b-738b-41cf-8261-3cfbb53a09c0" absoluteBounds="13.515, 8.21, 1.9700000000000002, 1.6312967936197915" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <classShape Id="5c3c10c5-2f60-4afc-b8a5-19d711ff3abb" absoluteBounds="7.25, 13.25, 2, 1.7982710774739559">
+    <classShape Id="5c3c10c5-2f60-4afc-b8a5-19d711ff3abb" absoluteBounds="7.25, 13.25, 2, 1.9947839355468755">
       <DataClassMoniker Name="/PESDBDataContext/Theory" />
       <nestedChildShapes>
-        <elementListCompartment Id="36b1e81d-e4cd-48bf-a194-c2e00f007f81" absoluteBounds="7.2650000000000006, 13.71, 1.9700000000000002, 1.2382710774739583" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+        <elementListCompartment Id="36b1e81d-e4cd-48bf-a194-c2e00f007f81" absoluteBounds="7.2650000000000006, 13.71, 1.9700000000000002, 1.434783935546875" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
     <classShape Id="d3316be7-410c-45d3-bc20-9f0afaef2039" absoluteBounds="6.25, 6, 2, 3.1738610839843773">
@@ -116,127 +116,127 @@
         <elementListCompartment Id="6528a8c2-ceac-439a-a374-6d1827cb2d51" absoluteBounds="6.265, 6.46, 1.9700000000000002, 2.613861083984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
       </nestedChildShapes>
     </classShape>
-    <associationConnector edgePoints="[(3.125 : 13.125); (3.125 : 12.173271077474)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/GameCatelogy/GAME_CATEGORY_GAME" />
-      <nodes>
-        <classShapeMoniker Id="4c425dce-1a39-47ad-a026-6f51e5602f55" />
-        <classShapeMoniker Id="17bd4fd2-321c-4bea-affc-b2e3d15c3026" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(3.3125 : 10.375); (3.3125 : 9.54827107747396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Game/GAME_GAME_RESULT" />
-      <nodes>
-        <classShapeMoniker Id="17bd4fd2-321c-4bea-affc-b2e3d15c3026" />
-        <classShapeMoniker Id="7ca1ce8f-b633-4259-8cc7-4c71b921866f" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(12.75 : 14.0508791097005); (14.125 : 14.0508791097005)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Lesson/LESSON_EXERCISE" />
-      <nodes>
-        <classShapeMoniker Id="7b475fb9-6a3d-4f05-9758-4edf7d156fb5" />
-        <classShapeMoniker Id="4ee882cc-0f7c-4cd5-80dc-648d3b05823a" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(11.6875 : 12.101758219401); (11.6875 : 13.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Part/PART_LESSON" />
-      <nodes>
-        <classShapeMoniker Id="171236d4-edac-47b2-8812-b310b294c2a2" />
-        <classShapeMoniker Id="7b475fb9-6a3d-4f05-9758-4edf7d156fb5" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(18.125 : 11.3276226806641); (18.875 : 11.3276226806641)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Question/QUESTION_REPLY" />
-      <nodes>
-        <classShapeMoniker Id="e66b8a41-d221-41fe-9603-e44e87027c9c" />
-        <classShapeMoniker Id="f9935469-6ecb-4ac0-822b-a2edf1d7590b" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(12.375 : 6.70262268066406); (11.25 : 6.70262268066406)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Role/ROLE_USER_GROUP" />
-      <nodes>
-        <classShapeMoniker Id="7bbc9c1f-4faf-41bb-81c7-52c09a348c89" />
-        <classShapeMoniker Id="71e8ba82-3a31-4e59-8e7f-00302dc7f442" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(9.875 : 11.3008791097005); (10.625 : 11.3008791097005)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Subject/SUBJECT_PART" />
-      <nodes>
-        <classShapeMoniker Id="30f79fed-2440-4fb7-8985-f24dea096244" />
-        <classShapeMoniker Id="171236d4-edac-47b2-8812-b310b294c2a2" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(7.125 : 11.2293662516276); (7.875 : 11.2293662516276)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Class/CLASS_SUBJECT" />
-      <nodes>
-        <classShapeMoniker Id="29e2fb6e-681c-4e99-881f-72def659d68a" />
-        <classShapeMoniker Id="30f79fed-2440-4fb7-8985-f24dea096244" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(15.375 : 11.3276226806641); (16.125 : 11.3276226806641)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Test/TEST_QUESTION" />
-      <nodes>
-        <classShapeMoniker Id="eccc81ed-74ac-4b13-9084-a24dc7e4946b" />
-        <classShapeMoniker Id="e66b8a41-d221-41fe-9603-e44e87027c9c" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(12.625 : 11.3008791097005); (13.375 : 11.3008791097005)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Part/PART_TEST" />
-      <nodes>
-        <classShapeMoniker Id="171236d4-edac-47b2-8812-b310b294c2a2" />
-        <classShapeMoniker Id="eccc81ed-74ac-4b13-9084-a24dc7e4946b" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(14.4375 : 10.375); (14.4375 : 9.74478393554688)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Test/TEST_TEST_RESULT" />
-      <nodes>
-        <classShapeMoniker Id="eccc81ed-74ac-4b13-9084-a24dc7e4946b" />
-        <classShapeMoniker Id="6cceb652-0e6f-44ae-8f87-93e0fe19b869" />
-      </nodes>
-    </associationConnector>
-    <associationConnector edgePoints="[(10.75 : 14.0508791097005); (9.25 : 14.0508791097005)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/Lesson/LESSON_THEORY" />
-      <nodes>
-        <classShapeMoniker Id="7b475fb9-6a3d-4f05-9758-4edf7d156fb5" />
-        <classShapeMoniker Id="5c3c10c5-2f60-4afc-b8a5-19d711ff3abb" />
-      </nodes>
-    </associationConnector>
     <associationConnector edgePoints="[(7.875 : 6); (7.875 : 4.79827107747396)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/User/USER_ARTICE" />
+      <AssociationMoniker Name="/PESDBDataContext/User/User_Artice" />
       <nodes>
         <classShapeMoniker Id="d3316be7-410c-45d3-bc20-9f0afaef2039" />
         <classShapeMoniker Id="a220784e-d130-460f-9062-251caabb070a" />
       </nodes>
     </associationConnector>
+    <associationConnector edgePoints="[(12.375 : 6.70262268066406); (11.25 : 6.70262268066406)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Role/Role_UserGroup" />
+      <nodes>
+        <classShapeMoniker Id="7bbc9c1f-4faf-41bb-81c7-52c09a348c89" />
+        <classShapeMoniker Id="71e8ba82-3a31-4e59-8e7f-00302dc7f442" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.75 : 14.149135538737); (14.125 : 14.149135538737)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Lesson/Lesson_Exercise" />
+      <nodes>
+        <classShapeMoniker Id="7b475fb9-6a3d-4f05-9758-4edf7d156fb5" />
+        <classShapeMoniker Id="4ee882cc-0f7c-4cd5-80dc-648d3b05823a" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.125 : 13.125); (3.125 : 12.3697839355469)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/GameCatelogy/GameCatelogy_Game" />
+      <nodes>
+        <classShapeMoniker Id="4c425dce-1a39-47ad-a026-6f51e5602f55" />
+        <classShapeMoniker Id="17bd4fd2-321c-4bea-affc-b2e3d15c3026" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(3.3125 : 10.375); (3.3125 : 9.74478393554688)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Game/Game_GameResult" />
+      <nodes>
+        <classShapeMoniker Id="17bd4fd2-321c-4bea-affc-b2e3d15c3026" />
+        <classShapeMoniker Id="7ca1ce8f-b633-4259-8cc7-4c71b921866f" />
+      </nodes>
+    </associationConnector>
     <associationConnector edgePoints="[(6.25 : 8.46193054199219); (4.375 : 8.46193054199219)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/User/USER_GAME_RESULT" />
+      <AssociationMoniker Name="/PESDBDataContext/User/User_GameResult" />
       <nodes>
         <classShapeMoniker Id="d3316be7-410c-45d3-bc20-9f0afaef2039" />
         <classShapeMoniker Id="7ca1ce8f-b633-4259-8cc7-4c71b921866f" />
       </nodes>
     </associationConnector>
+    <associationConnector edgePoints="[(11.6875 : 12.298271077474); (11.6875 : 13.25)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Part/Part_Lesson" />
+      <nodes>
+        <classShapeMoniker Id="171236d4-edac-47b2-8812-b310b294c2a2" />
+        <classShapeMoniker Id="7b475fb9-6a3d-4f05-9758-4edf7d156fb5" />
+      </nodes>
+    </associationConnector>
     <associationConnector edgePoints="[(6.625 : 6); (6.625 : 4.72675821940104)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/User/USER_LOG" />
+      <AssociationMoniker Name="/PESDBDataContext/User/User_Log" />
       <nodes>
         <classShapeMoniker Id="d3316be7-410c-45d3-bc20-9f0afaef2039" />
         <classShapeMoniker Id="102c6728-04a1-4c82-9eb2-fe3867a0559e" />
       </nodes>
     </associationConnector>
     <associationConnector edgePoints="[(6.25 : 6.5331483968099); (4.5 : 6.5331483968099)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/User/USER_MAIL_BOX" />
+      <AssociationMoniker Name="/PESDBDataContext/User/User_MailBox" />
       <nodes>
         <classShapeMoniker Id="d3316be7-410c-45d3-bc20-9f0afaef2039" />
         <classShapeMoniker Id="3ed0dae1-929d-4eb1-b37a-2c86599009df" />
       </nodes>
     </associationConnector>
+    <associationConnector edgePoints="[(9.875 : 11.399135538737); (10.625 : 11.399135538737)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Subject/Subject_Part" />
+      <nodes>
+        <classShapeMoniker Id="30f79fed-2440-4fb7-8985-f24dea096244" />
+        <classShapeMoniker Id="171236d4-edac-47b2-8812-b310b294c2a2" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(15.375 : 11.4258791097005); (16.125 : 11.4258791097005)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Test/Test_Question" />
+      <nodes>
+        <classShapeMoniker Id="eccc81ed-74ac-4b13-9084-a24dc7e4946b" />
+        <classShapeMoniker Id="e66b8a41-d221-41fe-9603-e44e87027c9c" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(18.125 : 11.4258791097005); (18.875 : 11.4258791097005)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Question/Question_Reply" />
+      <nodes>
+        <classShapeMoniker Id="e66b8a41-d221-41fe-9603-e44e87027c9c" />
+        <classShapeMoniker Id="f9935469-6ecb-4ac0-822b-a2edf1d7590b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(7.125 : 11.3276226806641); (7.875 : 11.3276226806641)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Class/Class_Subject" />
+      <nodes>
+        <classShapeMoniker Id="29e2fb6e-681c-4e99-881f-72def659d68a" />
+        <classShapeMoniker Id="30f79fed-2440-4fb7-8985-f24dea096244" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(12.625 : 11.399135538737); (13.375 : 11.399135538737)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Part/Part_Test" />
+      <nodes>
+        <classShapeMoniker Id="171236d4-edac-47b2-8812-b310b294c2a2" />
+        <classShapeMoniker Id="eccc81ed-74ac-4b13-9084-a24dc7e4946b" />
+      </nodes>
+    </associationConnector>
+    <associationConnector edgePoints="[(14.4375 : 10.375); (14.4375 : 9.94129679361979)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Test/Test_TestResult" />
+      <nodes>
+        <classShapeMoniker Id="eccc81ed-74ac-4b13-9084-a24dc7e4946b" />
+        <classShapeMoniker Id="6cceb652-0e6f-44ae-8f87-93e0fe19b869" />
+      </nodes>
+    </associationConnector>
     <associationConnector edgePoints="[(8.25 : 8.46193054199219); (13.5 : 8.46193054199219)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/User/USER_TEST_RESULT" />
+      <AssociationMoniker Name="/PESDBDataContext/User/User_TestResult" />
       <nodes>
         <classShapeMoniker Id="d3316be7-410c-45d3-bc20-9f0afaef2039" />
         <classShapeMoniker Id="6cceb652-0e6f-44ae-8f87-93e0fe19b869" />
       </nodes>
     </associationConnector>
+    <associationConnector edgePoints="[(10.75 : 14.149135538737); (9.25 : 14.149135538737)]" fixedFrom="Algorithm" fixedTo="Algorithm">
+      <AssociationMoniker Name="/PESDBDataContext/Lesson/Lesson_Theory" />
+      <nodes>
+        <classShapeMoniker Id="7b475fb9-6a3d-4f05-9758-4edf7d156fb5" />
+        <classShapeMoniker Id="5c3c10c5-2f60-4afc-b8a5-19d711ff3abb" />
+      </nodes>
+    </associationConnector>
     <associationConnector edgePoints="[(9.25 : 6.73837910970052); (8.25 : 6.73837910970052)]" fixedFrom="Algorithm" fixedTo="Algorithm">
-      <AssociationMoniker Name="/PESDBDataContext/UserGroup/USER_GROUP_USER" />
+      <AssociationMoniker Name="/PESDBDataContext/UserGroup/UserGroup_User" />
       <nodes>
         <classShapeMoniker Id="71e8ba82-3a31-4e59-8e7f-00302dc7f442" />
         <classShapeMoniker Id="d3316be7-410c-45d3-bc20-9f0afaef2039" />
