@@ -4,18 +4,15 @@ using System.Linq;
 using System.Text;
 using PrimaryEducationSystem.Core.Database;
 
-namespace PrimaryEducationSystem.Core
+public interface IDatafactory
 {
-    public interface IDatafactory
-    {
-        #region insert update delete
-        int Insert(Object ob);
-        int Update(Object ob);
-        int Delete(Object ob);
-        #endregion
+    #region insert update delete
+    int Insert(Object ob);
+    int Update(Object ob);
+    int Delete(Object ob);
+    #endregion
 
-        #region Get
-        IQueryable<Object> GetObject();
-        #endregion
-    }
+    #region Get
+    IQueryable<Object> GetObject();
+    #endregion
 }

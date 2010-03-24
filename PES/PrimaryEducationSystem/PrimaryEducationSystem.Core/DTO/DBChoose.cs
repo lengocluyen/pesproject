@@ -11,16 +11,14 @@ using System.Data.OracleClient;
 using System.Runtime.Remoting.Messaging;
 using PrimaryEducationSystem.Core.Database;
 
-namespace PrimaryEducationSystem.Core
+public class DBChoose
 {
-    public class DBChoose
-    {
-        static IDbConnection dbConnection;
+    static IDbConnection dbConnection;
 
-        static DBChoose()
-        {
-            SetDbConnection();
-        }
+    static DBChoose()
+    {
+        SetDbConnection();
+    }
 
 
     public static PESDBDataContext GetDataContext()
@@ -55,28 +53,17 @@ namespace PrimaryEducationSystem.Core
         switch (provider)
         {
             case "SqlClient":
-                {
-                    dbConnection = new SqlConnection(ConfigurationSettings.AppSettings.Get("PESDBConnectionString"));
-                    break;
-                }
+                dbConnection = new SqlConnection(ConfigurationSettings.AppSettings.Get("PESDBConnectionString"));
+                break;
             case "OleDb":
-                {
-
-                    dbConnection = new OleDbConnection(ConfigurationSettings.AppSettings.Get("OleDbConnectionString"));
-                    break;
-                }
+                dbConnection = new OleDbConnection(ConfigurationSettings.AppSettings.Get("OleDbConnectionString"));
+                break;
             case "Oracle":
-                {
-
-                    dbConnection = new OracleConnection(ConfigurationSettings.AppSettings.Get("OracleConnectionString"));
-                    break;
-                }
+                dbConnection = new OracleConnection(ConfigurationSettings.AppSettings.Get("OracleConnectionString"));
+                break;
             default:
-                {
-                    dbConnection = new SqlConnection(ConfigurationSettings.AppSettings.Get("PESDBConnectionString"));
-                    break;
-                }
+                dbConnection = new SqlConnection(ConfigurationSettings.AppSettings.Get("PESDBConnectionString"));
+                break;
         }
-    }
     }
 }

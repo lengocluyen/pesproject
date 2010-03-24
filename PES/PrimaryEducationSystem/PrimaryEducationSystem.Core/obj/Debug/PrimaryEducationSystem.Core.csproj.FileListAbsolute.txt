@@ -16,3 +16,9 @@ E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEdu
 E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\ResolveAssemblyReference.cache
 E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.dll
 E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.pdb
+H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.dll.config
+H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.dll
+H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.pdb
+H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\ResolveAssemblyReference.cache
+H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.dll
+H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.pdb

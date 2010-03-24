@@ -131,18 +131,18 @@ namespace PrimaryEducationSystem.Families.Models
     public class ChangePasswordModel
     {
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Current password")]
         public string OldPassword { get; set; }
 
         [Required]
         [ValidatePasswordLength]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("New password")]
         public string NewPassword { get; set; }
 
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Confirm new password")]
         public string ConfirmPassword { get; set; }
     }
@@ -154,7 +154,7 @@ namespace PrimaryEducationSystem.Families.Models
         public string UserName { get; set; }
 
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Password")]
         public string Password { get; set; }
 
@@ -170,18 +170,18 @@ namespace PrimaryEducationSystem.Families.Models
         public string UserName { get; set; }
 
         [Required]
-        [DataType(DataType.EmailAddress)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.EmailAddress)]
         [DisplayName("Email address")]
         public string Email { get; set; }
 
         [Required]
         [ValidatePasswordLength]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Password")]
         public string Password { get; set; }
 
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Confirm password")]
         public string ConfirmPassword { get; set; }
     }

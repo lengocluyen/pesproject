@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "PESLessonHomeSite", "PESLessonHomeSite\", "{C7B6F48E-E9AA-427E-BDAF-CCBC7B3E571D}"
+	ProjectSection(WebsiteProperties) = preProject
+		TargetFramework = "3.5"
+		Debug.AspNetCompiler.VirtualPath = "/PESLessonHomeSite"
+		Debug.AspNetCompiler.PhysicalPath = "PESLessonHomeSite\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\PESLessonHomeSite\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/PESLessonHomeSite"
+		Release.AspNetCompiler.PhysicalPath = "PESLessonHomeSite\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\PESLessonHomeSite\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1764"
+		ProjOutputReferences = "{2b6a9b5c-5630-42dc-92bc-75b680d4b67b}|ClientBin|false;"
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PESLessonHome", "PESLessonHome\PESLessonHome.csproj", "{2B6A9B5C-5630-42DC-92BC-75B680D4B67B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C7B6F48E-E9AA-427E-BDAF-CCBC7B3E571D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7B6F48E-E9AA-427E-BDAF-CCBC7B3E571D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7B6F48E-E9AA-427E-BDAF-CCBC7B3E571D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7B6F48E-E9AA-427E-BDAF-CCBC7B3E571D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B6A9B5C-5630-42DC-92BC-75B680D4B67B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B6A9B5C-5630-42DC-92BC-75B680D4B67B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B6A9B5C-5630-42DC-92BC-75B680D4B67B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B6A9B5C-5630-42DC-92BC-75B680D4B67B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
