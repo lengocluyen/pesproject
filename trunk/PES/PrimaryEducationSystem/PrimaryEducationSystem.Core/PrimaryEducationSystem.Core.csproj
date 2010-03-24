@@ -39,6 +39,9 @@
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
     </Reference>
     <Reference Include="System.Data.OracleClient" />
+    <Reference Include="System.ServiceModel">
+      <RequiredTargetFramework>3.0</RequiredTargetFramework>
+    </Reference>
     <Reference Include="System.Web" />
     <Reference Include="System.Xml.Linq">
       <RequiredTargetFramework>3.5</RequiredTargetFramework>
@@ -71,6 +74,9 @@
     <Compile Include="BO\SqlServer\PTheories.cs" />
     <Compile Include="BO\SqlServer\PUser.cs" />
     <Compile Include="BO\SqlServer\PUser_Group.cs" />
+    <Compile Include="Database\PESDB.cs">
+      <DependentUpon>PESDB.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Database\PESDB.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>

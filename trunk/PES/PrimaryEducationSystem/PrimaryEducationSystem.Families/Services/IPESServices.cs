@@ -13,6 +13,7 @@ namespace PrimaryEducationSystem.Families
     public interface IPESServices
     {
         #region LEARING
+
         #region Get Information Class
         [OperationContract]
         Class GetClassByID(int idClass);
@@ -21,6 +22,7 @@ namespace PrimaryEducationSystem.Families
         [OperationContract]
         List<Class> GetAllClass();
         #endregion
+
         #region Get Information Subject
         [OperationContract]
         Subject GetSubjectByID(int idSubject);
@@ -31,6 +33,7 @@ namespace PrimaryEducationSystem.Families
         [OperationContract]
         List<Subject> GetSubjectByClassID(int idClass);
         #endregion
+
         #region Get Information Part
         [OperationContract]
         Part GetPartByID(int idPart);
@@ -40,6 +43,7 @@ namespace PrimaryEducationSystem.Families
         [OperationContract]
         List<Part> GetAllPart();
         #endregion
+
         #region Get Information Lesson
         [OperationContract]
         Lesson GetLessonByID(int idLesson);
@@ -48,18 +52,21 @@ namespace PrimaryEducationSystem.Families
         [OperationContract]
         List<Lesson> GetLessonByPartID(int idPart);
         #endregion
+
         #region Get Information Theory
         [OperationContract]
         Theory GetTheoryByID(int idTheory);
         [OperationContract]
         List<Theory> GetTheoryByLessonID(int idLesson);
         #endregion
+
         #region Get Information Exercise
         [OperationContract]
         Exercise GetExerciseByID(int idExercise);
         [OperationContract]
         List<Exercise> GetExerciseByLessonID(int idLesson);
         #endregion
+
         #endregion
     }
 }
