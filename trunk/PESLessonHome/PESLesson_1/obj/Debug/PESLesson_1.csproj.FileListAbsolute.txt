@@ -1,0 +1,16 @@
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\obj\Debug\ResolveAssemblyReference.cache
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\obj\Debug\App.g.cs
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\obj\Debug\MainLesson.g.cs
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\obj\Debug\MainPage.g.cs
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\obj\Debug\PESLesson_1.g.resources
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\Bin\Debug\AppManifest.xaml
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\Bin\Debug\favicon.ico
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\Bin\Debug\PESLesson_1.dll
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\Bin\Debug\PESLesson_1.pdb
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\Bin\Debug\PESLesson_1.xap
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\Bin\Debug\TestPage.html
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\Bin\Debug\System.Windows.Interactivity.dll
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\Bin\Debug\System.Windows.Interactivity.xml
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\obj\Debug\PESLesson_1.dll
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\obj\Debug\PESLesson_1.pdb
+D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLesson_1\obj\Debug\XapCacheFile.xml
