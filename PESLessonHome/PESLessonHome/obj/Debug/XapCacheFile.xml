@@ -1,9 +1,11 @@
-﻿<xapCache source="C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\PESLessonHome\PESLessonHome\Bin\Debug\PESLessonHome.xap" lastWriteTime="3/25/2010 12:05:39 AM">
-  <file source="C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\PESLessonHome\PESLessonHome\obj\Debug\PESLessonHome.dll" archivePath="PESLessonHome.dll" lastWriteTime="3/25/2010 12:05:28 AM" />
-  <file source="C:\Program Files\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="6/23/2009 10:12:28 PM" />
-  <file source="C:\Program Files\Microsoft SDKs\Silverlight\v3.0\Toolkit\Nov09\Bin\System.Windows.Controls.Toolkit.dll" archivePath="System.Windows.Controls.Toolkit.dll" lastWriteTime="11/18/2009 3:14:52 AM" />
-  <file source="C:\Program Files\Telerik\RadControls for Silverlight Q1 2010\Binaries\Silverlight\Telerik.Windows.Controls.dll" archivePath="Telerik.Windows.Controls.dll" lastWriteTime="3/9/2010 5:28:38 PM" />
-  <file source="C:\Program Files\Telerik\RadControls for Silverlight Q1 2010\Binaries\Silverlight\Telerik.Windows.Controls.Navigation.dll" archivePath="Telerik.Windows.Controls.Navigation.dll" lastWriteTime="3/9/2010 5:28:58 PM" />
-  <file source="C:\Program Files\Microsoft SDKs\Silverlight\v3.0\Toolkit\Nov09\Bin\System.Reactive.dll" archivePath="System.Reactive.dll" lastWriteTime="11/18/2009 2:30:10 AM" />
-  <file source="C:\Documents and Settings\Le Ngoc Luyen\My Documents\Expression\Blend 3\Projects\PESLessonHome\PESLessonHome\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="3/24/2010 10:58:06 PM" />
+﻿<xapCache source="D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLessonHome\Bin\Debug\PESLessonHome.xap" lastWriteTime="3/25/2010 10:04:53 AM">
+  <file source="D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLessonHome\obj\Debug\PESLessonHome.dll" archivePath="PESLessonHome.dll" lastWriteTime="3/25/2010 10:04:52 AM" />
+  <file source="D:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.ComponentModel.DataAnnotations.dll" archivePath="System.ComponentModel.DataAnnotations.dll" lastWriteTime="6/23/2009 10:12:28 PM" />
+  <file source="D:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Toolkit\Nov09\Bin\System.Windows.Controls.Data.DataForm.Toolkit.dll" archivePath="System.Windows.Controls.Data.DataForm.Toolkit.dll" lastWriteTime="11/18/2009 3:14:40 AM" />
+  <file source="D:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.Data.Input.dll" archivePath="System.Windows.Controls.Data.Input.dll" lastWriteTime="6/23/2009 10:12:28 PM" />
+  <file source="D:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Controls.dll" archivePath="System.Windows.Controls.dll" lastWriteTime="6/23/2009 10:12:28 PM" />
+  <file source="D:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Toolkit\Nov09\Bin\System.Windows.Controls.Toolkit.dll" archivePath="System.Windows.Controls.Toolkit.dll" lastWriteTime="11/18/2009 3:14:52 AM" />
+  <file source="D:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Libraries\Client\System.Windows.Data.dll" archivePath="System.Windows.Data.dll" lastWriteTime="6/23/2009 10:12:28 PM" />
+  <file source="D:\Program Files (x86)\Microsoft SDKs\Silverlight\v3.0\Toolkit\Nov09\Bin\System.Reactive.dll" archivePath="System.Reactive.dll" lastWriteTime="11/18/2009 2:30:10 AM" />
+  <file source="D:\Documents and Settings\ITBUS\Desktop\Working\PESLessonHome\PESLessonHome\Bin\Debug\AppManifest.xaml" archivePath="AppManifest.xaml" lastWriteTime="3/25/2010 10:04:52 AM" />
 </xapCache>
