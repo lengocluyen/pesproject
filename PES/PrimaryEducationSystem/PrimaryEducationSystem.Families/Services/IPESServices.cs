@@ -5,13 +5,14 @@ using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
 using PrimaryEducationSystem.Core.Database;
-
-namespace PrimaryEducationSystem.Families
+namespace PrimaryEducationSystem.Families.Services
 {
     // NOTE: If you change the interface name "IPESServices" here, you must also update the reference to "IPESServices" in Web.config.
     [ServiceContract]
     public interface IPESServices
     {
+        [OperationContract]
+        void DoWork();
         #region LEARING
 
         #region Get Information Class

@@ -4,17 +4,15 @@ using System.Linq;
 using System.Runtime.Serialization;
 using System.ServiceModel;
 using System.Text;
-using System.Configuration;
-using System.Data.Linq;
 using PrimaryEducationSystem.Core.Database;
-using PrimaryEducationSystem;
-
 namespace PrimaryEducationSystem.Families.Services
 {
     // NOTE: If you change the class name "PESServices" here, you must also update the reference to "PESServices" in Web.config.
     public class PESServices : IPESServices
     {
-        
+        public void DoWork()
+        {
+        }
         #region LEARING
 
         #region Get Information Class
@@ -24,7 +22,7 @@ namespace PrimaryEducationSystem.Families.Services
             try
             {
                 pdb = new PESDBDataContext();
-                return (from c in pdb.Classes where c.ClassID == idClass select c).FirstOrDefault(); 
+                return (from c in pdb.Classes where c.ClassID == idClass select c).FirstOrDefault();
             }
             catch { return null; }
         }
@@ -51,7 +49,7 @@ namespace PrimaryEducationSystem.Families.Services
         }
 
         #endregion
-        
+
         #region Get Information Subject
         public Subject GetSubjectByID(int idSubject)
         {
@@ -90,7 +88,7 @@ namespace PrimaryEducationSystem.Families.Services
             catch { return null; }
         }
         #endregion
-        
+
         #region Get Information Part
         public Part GetPartByID(int idPart)
         {
@@ -99,7 +97,7 @@ namespace PrimaryEducationSystem.Families.Services
                 pdb = new PESDBDataContext();
                 return (from i in pdb.Parts where i.PartID == idPart select i).FirstOrDefault();
             }
-            catch 
+            catch
             {
                 return null;
             }
@@ -141,14 +139,14 @@ namespace PrimaryEducationSystem.Families.Services
             }
         }
         #endregion
-        
+
         #region Get Information Lesson
         public Lesson GetLessonByID(int idLesson)
         {
             try
             {
                 pdb = new PESDBDataContext();
-                return (from i in pdb.Lessons where i.LessonID== idLesson select i).FirstOrDefault();
+                return (from i in pdb.Lessons where i.LessonID == idLesson select i).FirstOrDefault();
             }
             catch
             {
@@ -180,14 +178,14 @@ namespace PrimaryEducationSystem.Families.Services
             }
         }
         #endregion
-        
+
         #region Get Information Theory
         public Theory GetTheoryByID(int idTheory)
         {
             try
             {
                 pdb = new PESDBDataContext();
-                return (from i in pdb.Theories where i.TheoryID== idTheory select i).FirstOrDefault();
+                return (from i in pdb.Theories where i.TheoryID == idTheory select i).FirstOrDefault();
             }
             catch
             {
@@ -207,7 +205,7 @@ namespace PrimaryEducationSystem.Families.Services
             }
         }
         #endregion
-        
+
         #region Get Information Exercise
         public Exercise GetExerciseByID(int idExercise)
         {
@@ -226,7 +224,7 @@ namespace PrimaryEducationSystem.Families.Services
             try
             {
                 pdb = new PESDBDataContext();
-                return (from i in pdb.Exercises where i.LessonID== idLesson select i).ToList();
+                return (from i in pdb.Exercises where i.LessonID == idLesson select i).ToList();
             }
             catch
             {
@@ -234,7 +232,7 @@ namespace PrimaryEducationSystem.Families.Services
             }
         }
         #endregion
-        
+
         #endregion
     }
 }
