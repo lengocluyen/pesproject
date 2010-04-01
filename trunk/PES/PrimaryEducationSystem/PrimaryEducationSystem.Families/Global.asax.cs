@@ -14,13 +14,17 @@ namespace PrimaryEducationSystem.Families
     {
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            //routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
-                "Default",                                              // Route name
-                "{controller}/{action}/{id}",                           // URL with parameters
-                new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
-            );
+            //routes.MapRoute(
+            //    "Default",                                              // Route name
+            //    "{controller}/{action}/{id}",                           // URL with parameters
+            //    new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
+            //);
+
+            routes.IgnoreRoute("{resource}.svc/{*pathInfo}");
+
+            //routes.MapRoute("service", "Services/PESServices.svc");
 
         }
 

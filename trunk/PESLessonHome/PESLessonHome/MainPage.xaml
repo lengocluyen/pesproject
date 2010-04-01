@@ -2,9 +2,10 @@
 	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
 	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:d="http://schemas.microsoft.com/expression/blend/2008" xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-	x:Class="PESLessonHome.MainPage"
     xmlns:toolkit="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Toolkit"
-	Width="Auto" Height="Auto" mc:Ignorable="d">
+	mc:Ignorable="d Anno" xmlns:Anno="http://schemas.microsoft.com/expression/blend/extensions/annotations/2008"
+	x:Class="PESLessonHome.MainPage"
+	Width="Auto" Height="Auto">
 	<UserControl.Resources>
 		<Style x:Key="ButtonNext" TargetType="Button" >
 			<Setter Property="Template">
@@ -185,6 +186,18 @@
 		<Image Height="159" HorizontalAlignment="Left" Margin="34,0,0,8" VerticalAlignment="Bottom" Width="165" Source="Images/f3.png" Stretch="Fill"/>
 		<Image Height="143" HorizontalAlignment="Right" Margin="0,0,614,24" VerticalAlignment="Bottom" Width="156" Source="Images/f4.png" Stretch="Fill"/>
 		<Button Height="96" HorizontalAlignment="Left" Margin="8,0,0,0" Style="{StaticResource ButtonHome}" Cursor="Hand" VerticalAlignment="Top" Width="96" Content="Button"/>
+        	<Image Height="68.488" HorizontalAlignment="Right" Margin="0,44.087,25.565,0" VerticalAlignment="Top" Width="91.435" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Source="Images/mieng.png" Stretch="Fill" d:LayoutRounding="Auto">
+        		<Image.RenderTransform>
+        			<TransformGroup>
+        				<ScaleTransform/>
+        				<SkewTransform/>
+        				<RotateTransform Angle="34.353"/>
+        				<TranslateTransform/>
+        			</TransformGroup>
+        		</Image.RenderTransform>
+        	</Image>
+        	<Ellipse Fill="#FF100F0F" Stroke="Black" Height="5" HorizontalAlignment="Right" Margin="0,54,80,0" VerticalAlignment="Top" Width="5"/>
+        	<Ellipse Fill="#FF100F0F" Stroke="Black" Height="5" HorizontalAlignment="Right" Margin="0,55,51,0" VerticalAlignment="Top" Width="5"/>
 	</Grid>
         </toolkit:Viewbox>
 </UserControl>
