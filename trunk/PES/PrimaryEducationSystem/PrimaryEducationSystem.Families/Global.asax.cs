@@ -16,6 +16,17 @@ namespace PrimaryEducationSystem.Families
         {
             //routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
+//<<<<<<< .mine
+//            //routes.MapRoute(
+//            //    "Default",                                              // Route name
+//            //    "{controller}/{action}/{id}",                           // URL with parameters
+//            //    new { controller = "Home", action = "Index", id = "" }  // Parameter defaults
+//            //);
+//            routes.IgnoreRoute("{myWebForms}.svc/{*pathInfo}");
+//            routes.MapRoute(
+//                "Services", "Services/PESservices.svc"
+//                );
+//=======
             //routes.MapRoute(
             //    "Default",                                              // Route name
             //    "{controller}/{action}/{id}",                           // URL with parameters
