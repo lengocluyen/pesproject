@@ -12,8 +12,7 @@
     <AssemblyName>PrimaryEducationSystem.Study</AssemblyName>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <MvcBuildViews>false</MvcBuildViews>
-    <SilverlightApplicationList>
-    </SilverlightApplicationList>
+    <SilverlightApplicationList>{779F1DDF-C81E-4571-B2CA-1EE7E654417F}|..\PrimaryEducationSystem.Study.Home\PrimaryEducationSystem.Study.Home.csproj|ClientBin|False</SilverlightApplicationList>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -72,6 +71,7 @@
   <ItemGroup>
     <Content Include="ClientBin\PrimaryEducationSystem.Study.Home.xap" />
     <Content Include="Global.asax" />
+    <Content Include="Images\Class01Wall.png" />
     <Content Include="PrimaryEducationSystem.Study.HomeTestPage.aspx" />
     <Content Include="PrimaryEducationSystem.Study.HomeTestPage.html" />
     <Content Include="Silverlight.js" />
@@ -120,7 +120,7 @@
         <WebProjectProperties>
           <UseIIS>False</UseIIS>
           <AutoAssignPort>True</AutoAssignPort>
-          <DevelopmentServerPort>2600</DevelopmentServerPort>
+          <DevelopmentServerPort>5203</DevelopmentServerPort>
           <DevelopmentServerVPath>/</DevelopmentServerVPath>
           <IISUrl>
           </IISUrl>

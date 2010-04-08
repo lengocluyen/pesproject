@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryEducationSystem.Game
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryEducationSystem.Families", "PrimaryEducationSystem.Families\PrimaryEducationSystem.Families.csproj", "{6189EEF9-6E22-4D76-9482-C93D68F979EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimaryEducationSystem.Study.Home", "PrimaryEducationSystem.Study.Home\PrimaryEducationSystem.Study.Home.csproj", "{779F1DDF-C81E-4571-B2CA-1EE7E654417F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -31,6 +33,10 @@ Global
 		{6189EEF9-6E22-4D76-9482-C93D68F979EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6189EEF9-6E22-4D76-9482-C93D68F979EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6189EEF9-6E22-4D76-9482-C93D68F979EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{779F1DDF-C81E-4571-B2CA-1EE7E654417F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{779F1DDF-C81E-4571-B2CA-1EE7E654417F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{779F1DDF-C81E-4571-B2CA-1EE7E654417F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{779F1DDF-C81E-4571-B2CA-1EE7E654417F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -4,7 +4,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProductVersion>9.0.30729</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>{C7C90A56-DA95-46A5-8D32-55F3E1C732C0}</ProjectGuid>
+    <ProjectGuid>{779F1DDF-C81E-4571-B2CA-1EE7E654417F}</ProjectGuid>
     <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
@@ -28,6 +28,7 @@
     <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
     <LinkedServerProject>
     </LinkedServerProject>
+    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -51,17 +52,32 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Microsoft.Expression.Interactions, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="System.Windows" />
     <Reference Include="mscorlib" />
     <Reference Include="system" />
     <Reference Include="System.Core" />
     <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Data, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Navigation, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Controls.Toolkit, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Interactivity, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Windows.Browser" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AlphabetTable.xaml.cs">
+      <DependentUpon>AlphabetTable.xaml</DependentUpon>
+    </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="HomeLop01.xaml.cs">
+      <DependentUpon>HomeLop01.xaml</DependentUpon>
     </Compile>
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -73,6 +89,18 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:MarkupCompilePass1</Generator>
     </ApplicationDefinition>
+    <Page Include="AlphabetTable.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Home.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="HomeLop01.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
     <Page Include="MainPage.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:MarkupCompilePass1</Generator>
@@ -80,6 +108,117 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Home_Files\Camp.png" />
+    <Resource Include="Home_Files\Frisse.png" />
+    <Resource Include="Home_Files\image0.png" />
+    <Resource Include="Home_Files\image1.png" />
+    <Resource Include="Home_Files\image10.png" />
+    <Resource Include="Home_Files\image11.png" />
+    <Resource Include="Home_Files\image12.png" />
+    <Resource Include="Home_Files\image13.png" />
+    <Resource Include="Home_Files\image14.png" />
+    <Resource Include="Home_Files\image15.png" />
+    <Resource Include="Home_Files\image16.png" />
+    <Resource Include="Home_Files\image17.png" />
+    <Resource Include="Home_Files\image18.png" />
+    <Resource Include="Home_Files\image19.png" />
+    <Resource Include="Home_Files\image2.png" />
+    <Resource Include="Home_Files\image20.png" />
+    <Resource Include="Home_Files\image21.png" />
+    <Resource Include="Home_Files\image22.png" />
+    <Resource Include="Home_Files\image23.png" />
+    <Resource Include="Home_Files\image24.png" />
+    <Resource Include="Home_Files\image25.png" />
+    <Resource Include="Home_Files\image26.png" />
+    <Resource Include="Home_Files\image27.png" />
+    <Resource Include="Home_Files\image28.png" />
+    <Resource Include="Home_Files\image29.png" />
+    <Resource Include="Home_Files\image3.png" />
+    <Resource Include="Home_Files\image30.png" />
+    <Resource Include="Home_Files\image31.png" />
+    <Resource Include="Home_Files\image32.png" />
+    <Resource Include="Home_Files\image33.png" />
+    <Resource Include="Home_Files\image34.png" />
+    <Resource Include="Home_Files\image35.png" />
+    <Resource Include="Home_Files\image36.png" />
+    <Resource Include="Home_Files\image37.png" />
+    <Resource Include="Home_Files\image38.png" />
+    <Resource Include="Home_Files\image39.png" />
+    <Resource Include="Home_Files\image4.png" />
+    <Resource Include="Home_Files\image40.png" />
+    <Resource Include="Home_Files\image41.png" />
+    <Resource Include="Home_Files\image42.png" />
+    <Resource Include="Home_Files\image43.png" />
+    <Resource Include="Home_Files\image44.png" />
+    <Resource Include="Home_Files\image45.png" />
+    <Resource Include="Home_Files\image46.png" />
+    <Resource Include="Home_Files\image47.png" />
+    <Resource Include="Home_Files\image48.png" />
+    <Resource Include="Home_Files\image49.png" />
+    <Resource Include="Home_Files\image5.png" />
+    <Resource Include="Home_Files\image50.png" />
+    <Resource Include="Home_Files\image51.png" />
+    <Resource Include="Home_Files\image6.png" />
+    <Resource Include="Home_Files\image7.png" />
+    <Resource Include="Home_Files\image8.png" />
+    <Resource Include="Home_Files\image9.png" />
+    <Resource Include="Lop01_Files\image0.png" />
+    <Resource Include="Lop01_Files\image1.png" />
+    <Resource Include="Lop01_Files\image10.png" />
+    <Resource Include="Lop01_Files\image11.png" />
+    <Resource Include="Lop01_Files\image12.png" />
+    <Resource Include="Lop01_Files\image13.png" />
+    <Resource Include="Lop01_Files\image14.png" />
+    <Resource Include="Lop01_Files\image15.png" />
+    <Resource Include="Lop01_Files\image16.png" />
+    <Resource Include="Lop01_Files\image17.png" />
+    <Resource Include="Lop01_Files\image18.png" />
+    <Resource Include="Lop01_Files\image19.png" />
+    <Resource Include="Lop01_Files\image2.png" />
+    <Resource Include="Lop01_Files\image20.png" />
+    <Resource Include="Lop01_Files\image21.png" />
+    <Resource Include="Lop01_Files\image3.png" />
+    <Resource Include="Lop01_Files\image4.png" />
+    <Resource Include="Lop01_Files\image5.png" />
+    <Resource Include="Lop01_Files\image6.png" />
+    <Resource Include="Lop01_Files\image7.png" />
+    <Resource Include="Lop01_Files\image8.png" />
+    <Resource Include="Lop01_Files\image9.png" />
+    <Resource Include="Lop01_Home_Files\**\*.jpg;Lop01_Home_Files\**\*.jpeg;Lop01_Home_Files\**\*.png;Lop01_Home_Files\**\*.bmp;Lop01_Home_Files\**\*.gif;Lop01_Home_Files\**\*.tif;Lop01_Home_Files\**\*.tiff" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Home_Files\Boxes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="bangChuCai_Files\**\*.jpg;bangChuCai_Files\**\*.jpeg;bangChuCai_Files\**\*.png;bangChuCai_Files\**\*.bmp;bangChuCai_Files\**\*.gif;bangChuCai_Files\**\*.tif;bangChuCai_Files\**\*.tiff" />
+    <Resource Include="Lop01_Files\abacus_128.png" />
+    <Resource Include="Lop01_Files\agenda.png" />
+    <Resource Include="Lop01_Files\altavoz.png" />
+    <Resource Include="Lop01_Files\BMP.png" />
+    <Resource Include="Lop01_Files\Daragonfly2.png" />
+    <Resource Include="Lop01_Files\ddungshop_192.png" />
+    <Resource Include="Lop01_Files\delete2.png" />
+    <Resource Include="Lop01_Files\Dragonfly3.png" />
+    <Resource Include="Lop01_Files\Flower.png" />
+    <Resource Include="Lop01_Files\Gragonfly1.png" />
+    <Resource Include="Lop01_Files\iCandy_Junior 025.png" />
+    <Resource Include="Lop01_Files\librero.png" />
+    <Resource Include="Lop01_Files\pencil_128.png" />
+    <Resource Include="Lop01_Files\metafont.png" />
+    <Resource Include="Lop01_Files\pens.png" />
+    <Resource Include="Lop01_Files\staroffice.png" />
+    <Resource Include="Lop01_Files\WallApp.png" />
+    <Content Include="Sound\menu.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\paper-rip-3.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Sound\TiengChim_2.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
