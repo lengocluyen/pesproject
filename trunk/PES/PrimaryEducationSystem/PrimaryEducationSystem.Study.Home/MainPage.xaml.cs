@@ -17,6 +17,7 @@ namespace PrimaryEducationSystem.Study.Home
         public MainPage()
         {
             InitializeComponent();
+            //LayoutRoot.Children.Add(new HomeLop01());
         }
     }
 }

@@ -10,3 +10,5 @@ H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\Primar
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Families.pdb
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.dll
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.pdb
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.pdb
