@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" xmlns:ser="http://schemas.microsoft.com/2003/10/Serialization/" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:9999/Services/PESServices.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Class">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClassID" type="xs:int" />
+      <xs:element minOccurs="0" name="ClassName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subjects" nillable="true" type="tns:ArrayOfSubject" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Class" nillable="true" type="tns:Class" />
+  <xs:complexType name="ArrayOfSubject">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Subject" nillable="true" type="tns:Subject" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfSubject" nillable="true" type="tns:ArrayOfSubject" />
+  <xs:complexType name="Subject">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Class" nillable="true" type="tns:Class" />
+      <xs:element minOccurs="0" name="ClassID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Parts" nillable="true" type="tns:ArrayOfPart" />
+      <xs:element minOccurs="0" name="SubjectID" type="xs:int" />
+      <xs:element minOccurs="0" name="SubjectName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Subject" nillable="true" type="tns:Subject" />
+  <xs:complexType name="ArrayOfPart">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Part" nillable="true" type="tns:Part" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfPart" nillable="true" type="tns:ArrayOfPart" />
+  <xs:complexType name="Part">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lessons" nillable="true" type="tns:ArrayOfLesson" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PartID" type="xs:int" />
+      <xs:element minOccurs="0" name="PartName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Subject" nillable="true" type="tns:Subject" />
+      <xs:element minOccurs="0" name="SubjectID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Tests" nillable="true" type="tns:ArrayOfTest" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Part" nillable="true" type="tns:Part" />
+  <xs:complexType name="ArrayOfLesson">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Lesson" nillable="true" type="tns:Lesson" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLesson" nillable="true" type="tns:ArrayOfLesson" />
+  <xs:complexType name="Lesson">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Exercises" nillable="true" type="tns:ArrayOfExercise" />
+      <xs:element minOccurs="0" name="LessonID" type="xs:int" />
+      <xs:element minOccurs="0" name="LessonName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Part" nillable="true" type="tns:Part" />
+      <xs:element minOccurs="0" name="PartID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Theories" nillable="true" type="tns:ArrayOfTheory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Lesson" nillable="true" type="tns:Lesson" />
+  <xs:complexType name="ArrayOfExercise">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Exercise" nillable="true" type="tns:Exercise" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfExercise" nillable="true" type="tns:ArrayOfExercise" />
+  <xs:complexType name="Exercise">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Contents" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="ExerciseID" type="xs:int" />
+      <xs:element minOccurs="0" name="Lesson" nillable="true" type="tns:Lesson" />
+      <xs:element minOccurs="0" name="LessonID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Result" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Exercise" nillable="true" type="tns:Exercise" />
+  <xs:complexType name="ArrayOfTheory">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Theory" nillable="true" type="tns:Theory" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTheory" nillable="true" type="tns:ArrayOfTheory" />
+  <xs:complexType name="Theory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Contents" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Lesson" nillable="true" type="tns:Lesson" />
+      <xs:element minOccurs="0" name="LessonID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TheoryID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Theory" nillable="true" type="tns:Theory" />
+  <xs:complexType name="ArrayOfTest">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Test" nillable="true" type="tns:Test" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTest" nillable="true" type="tns:ArrayOfTest" />
+  <xs:complexType name="Test">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Part" nillable="true" type="tns:Part" />
+      <xs:element minOccurs="0" name="PartID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Quantity" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Questions" nillable="true" type="tns:ArrayOfQuestion" />
+      <xs:element minOccurs="0" name="TestID" type="xs:int" />
+      <xs:element minOccurs="0" name="TestName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TestResults" nillable="true" type="tns:ArrayOfTestResult" />
+      <xs:element minOccurs="0" name="_Level" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Test" nillable="true" type="tns:Test" />
+  <xs:complexType name="ArrayOfQuestion">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Question" nillable="true" type="tns:Question" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfQuestion" nillable="true" type="tns:ArrayOfQuestion" />
+  <xs:complexType name="Question">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Answer" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="QuestionID" type="xs:int" />
+      <xs:element minOccurs="0" name="Replies" nillable="true" type="tns:ArrayOfReply" />
+      <xs:element minOccurs="0" name="Test" nillable="true" type="tns:Test" />
+      <xs:element minOccurs="0" name="TestID" nillable="true" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Question" nillable="true" type="tns:Question" />
+  <xs:complexType name="ArrayOfReply">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Reply" nillable="true" type="tns:Reply" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfReply" nillable="true" type="tns:ArrayOfReply" />
+  <xs:complexType name="Reply">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Contents" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Question" nillable="true" type="tns:Question" />
+      <xs:element minOccurs="0" name="QuestionID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="ReplyID" type="xs:int" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Reply" nillable="true" type="tns:Reply" />
+  <xs:complexType name="ArrayOfTestResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="TestResult" nillable="true" type="tns:TestResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfTestResult" nillable="true" type="tns:ArrayOfTestResult" />
+  <xs:complexType name="TestResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Result" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Test" nillable="true" type="tns:Test" />
+      <xs:element minOccurs="0" name="TestID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="TestResultID" type="xs:int" />
+      <xs:element minOccurs="0" name="Time" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+      <xs:element minOccurs="0" name="UserID" nillable="true" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="TestResult" nillable="true" type="tns:TestResult" />
+  <xs:complexType name="User">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Address" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Artices" nillable="true" type="tns:ArrayOfArtice" />
+      <xs:element minOccurs="0" name="Birthday" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="DateRegister" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Email" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FamilyName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="FistName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameResults" nillable="true" type="tns:ArrayOfGameResult" />
+      <xs:element minOccurs="0" name="GroupID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="LastName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Logs" nillable="true" type="tns:ArrayOfLog" />
+      <xs:element minOccurs="0" name="MailBoxes" nillable="true" type="tns:ArrayOfMailBox" />
+      <xs:element minOccurs="0" name="PassWord" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Phone" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="TestResults" nillable="true" type="tns:ArrayOfTestResult" />
+      <xs:element minOccurs="0" name="UserGroup" nillable="true" type="tns:UserGroup" />
+      <xs:element minOccurs="0" name="UserID" type="ser:guid" />
+      <xs:element minOccurs="0" name="UserName" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="User" nillable="true" type="tns:User" />
+  <xs:complexType name="ArrayOfArtice">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Artice" nillable="true" type="tns:Artice" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfArtice" nillable="true" type="tns:ArrayOfArtice" />
+  <xs:complexType name="Artice">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ArticleID" type="xs:int" />
+      <xs:element minOccurs="0" name="Contents" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Title" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+      <xs:element minOccurs="0" name="UserID" nillable="true" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Artice" nillable="true" type="tns:Artice" />
+  <xs:complexType name="ArrayOfGameResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="GameResult" nillable="true" type="tns:GameResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGameResult" nillable="true" type="tns:ArrayOfGameResult" />
+  <xs:complexType name="GameResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Game" nillable="true" type="tns:Game" />
+      <xs:element minOccurs="0" name="GameID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="GameResultID" type="xs:int" />
+      <xs:element minOccurs="0" name="GameScores" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+      <xs:element minOccurs="0" name="UserID" nillable="true" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GameResult" nillable="true" type="tns:GameResult" />
+  <xs:complexType name="Game">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameCategoryID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="GameCatelogy" nillable="true" type="tns:GameCatelogy" />
+      <xs:element minOccurs="0" name="GameID" type="xs:int" />
+      <xs:element minOccurs="0" name="GameName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameResults" nillable="true" type="tns:ArrayOfGameResult" />
+      <xs:element minOccurs="0" name="GameType" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Help" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MediaFile" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Game" nillable="true" type="tns:Game" />
+  <xs:complexType name="GameCatelogy">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="GameCategoryID" type="xs:int" />
+      <xs:element minOccurs="0" name="GameCategoryname" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GameID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Games" nillable="true" type="tns:ArrayOfGame" />
+      <xs:element minOccurs="0" name="IsShowInHomePage" nillable="true" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="GameCatelogy" nillable="true" type="tns:GameCatelogy" />
+  <xs:complexType name="ArrayOfGame">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Game" nillable="true" type="tns:Game" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfGame" nillable="true" type="tns:ArrayOfGame" />
+  <xs:complexType name="ArrayOfLog">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Log" nillable="true" type="tns:Log" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfLog" nillable="true" type="tns:ArrayOfLog" />
+  <xs:complexType name="Log">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Contents" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Date" nillable="true" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="LogID" type="xs:int" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+      <xs:element minOccurs="0" name="UserID" nillable="true" type="ser:guid" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Log" nillable="true" type="tns:Log" />
+  <xs:complexType name="ArrayOfMailBox">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MailBox" nillable="true" type="tns:MailBox" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMailBox" nillable="true" type="tns:ArrayOfMailBox" />
+  <xs:complexType name="MailBox">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="Contents" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MailBoxID" type="xs:int" />
+      <xs:element minOccurs="0" name="Subject" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="User" nillable="true" type="tns:User" />
+      <xs:element minOccurs="0" name="UserID" nillable="true" type="ser:guid" />
+      <xs:element minOccurs="0" name="UserSend" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MailBox" nillable="true" type="tns:MailBox" />
+  <xs:complexType name="UserGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Description" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="GroupID" type="xs:int" />
+      <xs:element minOccurs="0" name="GroupName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Role" nillable="true" type="tns:Role" />
+      <xs:element minOccurs="0" name="RoleID" nillable="true" type="xs:int" />
+      <xs:element minOccurs="0" name="Users" nillable="true" type="tns:ArrayOfUser" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="UserGroup" nillable="true" type="tns:UserGroup" />
+  <xs:complexType name="Role">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Active" nillable="true" type="xs:boolean" />
+      <xs:element minOccurs="0" name="RoleID" type="xs:int" />
+      <xs:element minOccurs="0" name="RoleName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="UserGroups" nillable="true" type="tns:ArrayOfUserGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Role" nillable="true" type="tns:Role" />
+  <xs:complexType name="ArrayOfUserGroup">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="UserGroup" nillable="true" type="tns:UserGroup" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUserGroup" nillable="true" type="tns:ArrayOfUserGroup" />
+  <xs:complexType name="ArrayOfUser">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="User" nillable="true" type="tns:User" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfUser" nillable="true" type="tns:ArrayOfUser" />
+  <xs:complexType name="ArrayOfClass">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Class" nillable="true" type="tns:Class" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfClass" nillable="true" type="tns:ArrayOfClass" />
+</xs:schema>

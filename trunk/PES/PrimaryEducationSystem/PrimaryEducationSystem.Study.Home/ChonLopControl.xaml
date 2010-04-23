@@ -1,0 +1,123 @@
+﻿<UserControl
+	xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+	xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+	xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+	xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+	mc:Ignorable="d"
+	x:Class="PrimaryEducationSystem.Study.Home.ChonLopControl"
+	d:DesignWidth="397" d:DesignHeight="258">
+	<UserControl.Resources>
+		<Storyboard x:Name="Storyboard_Lop01">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop01" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.808"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop01" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.808"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop01" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="59.968399047851562"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="59.968"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop01" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="438.28201293945312"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="401.532"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="Storyboard_Lop02">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop02" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="1.568"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop02" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="1.568"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop02" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="349.71798706054688"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="340.946"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop02" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="415.28201293945312"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="408.789"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Storyboard x:Name="Storyboard_Lop03">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop03" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="1.763"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop03" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="1.763"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop03" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="688.218017578125"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="688.218"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Lop03" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="400.28201293945312"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4000000" Value="356.782"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+	</UserControl.Resources>
+
+	<Grid x:Name="LayoutRoot">
+		<Canvas x:Name="ChonLop" Opacity="0.99">
+			<Image Height="296" Width="515" Canvas.Left="-38" Canvas.Top="-18" Stretch="Fill" Source="ChonLopHoc_Files/Cloudes.png"/>
+			<Image x:Name="Lop02" Source="ChonLopHoc_files/image2.png" Width="132" Height="103" Canvas.Left="-209" Canvas.Top="-373" RenderTransformOrigin="0.383,0.889" MouseEnter="Lop02_MouseEnter" MouseLeave="Lop02_MouseLeave" Cursor="Hand">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform X="349.718" Y="415.282"/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+			<Image x:Name="Lop01" Source="ChonLopHoc_files/image1.png" Width="98" Height="91" Canvas.Left="-38" Canvas.Top="-352" RenderTransformOrigin="0.5,0.5" MouseEnter="Lop01_MouseEnter" MouseLeftButtonDown="Lop01_MouseLeftButtonDown" MouseLeftButtonUp="Lop01_MouseLeftButtonUp" MouseLeave="Lop01_MouseLeave" Cursor="Hand">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform X="59.968399047851562" Y="438.28201293945312"/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+			<Image x:Name="Lop03" Source="ChonLopHoc_files/image3.png" Width="109" Height="114" Canvas.Left="-389" Canvas.Top="-333" RenderTransformOrigin="0.5,0.5" MouseEnter="Lop03_MouseEnter" MouseLeftButtonDown="Lop03_MouseLeftButtonDown" MouseLeave="Lop03_MouseLeave" Cursor="Hand">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<ScaleTransform/>
+						<SkewTransform/>
+						<RotateTransform/>
+						<TranslateTransform X="688.218017578125" Y="400.28201293945312"/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+			<Image x:Name="Image_5" Source="ChonLopHoc_files/image6.png" Width="170" Height="144" Canvas.Left="-38" Canvas.Top="-342">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<MatrixTransform Matrix="0.826654,0,0,0.626609,147.407,419.26"/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+			<Image x:Name="Image_6" Source="ChonLopHoc_files/image7.png" Width="220" Height="74" Canvas.Left="-236" Canvas.Top="-449">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<MatrixTransform Matrix="0.824475,0,0,0.784367,445.218,579.752"/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+			<Image x:Name="Image_7" Source="ChonLopHoc_files/image8.png" Width="172" Height="145" Canvas.Left="102" Canvas.Top="-309">
+				<Image.RenderTransform>
+					<TransformGroup>
+						<MatrixTransform Matrix="0.625034,0,0,0.643709,-70.4964,414.76"/>
+					</TransformGroup>
+				</Image.RenderTransform>
+			</Image>
+
+		</Canvas>
+	</Grid>
+</UserControl>

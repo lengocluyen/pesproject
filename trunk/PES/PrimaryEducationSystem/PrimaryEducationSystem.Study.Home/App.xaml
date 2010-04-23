@@ -1,8 +1,16 @@
 ﻿<Application xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" 
              x:Class="PrimaryEducationSystem.Study.Home.App"
+             xmlns:navigation="clr-namespace:System.Windows.Controls;assembly=System.Windows.Controls.Navigation"
+             xmlns:navigationCore="clr-namespace:System.Windows.Navigation;assembly=System.Windows.Controls.Navigation"
              >
     <Application.Resources>
-        
+        <navigationCore:UriMapper x:Name="PESMapper">
+            <navigationCore:UriMapping Uri="" MappedUri="/Views/Home.xaml"/>
+            <navigationCore:UriMapping Uri="Home" MappedUri="/Home.xaml"/>
+            <navigationCore:UriMapping Uri="Home01Class" MappedUri="/Home01Class.xaml"/>
+			<navigationCore:UriMapping Uri="Home02Class" MappedUri="/Home01Class.xaml"/>
+			<navigationCore:UriMapping Uri="Home03Class" MappedUri="/Home01Class.xaml"/>
+        </navigationCore:UriMapper>
     </Application.Resources>
 </Application>

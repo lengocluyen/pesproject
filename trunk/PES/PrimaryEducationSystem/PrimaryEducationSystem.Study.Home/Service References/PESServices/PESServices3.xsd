@@ -1,0 +1,301 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://tempuri.org/" elementFormDefault="qualified" targetNamespace="http://tempuri.org/" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://localhost:9999/Services/PESServices.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" />
+  <xs:import schemaLocation="http://localhost:9999/Services/PESServices.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:element name="DoWork">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="DoWorkResponse">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClassByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idClass" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClassByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetClassByIDResult" nillable="true" type="q1:Class" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClassByName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nameClass" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetClassByNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetClassByNameResult" nillable="true" type="q2:Class" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllClass">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllClassResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetAllClassResult" nillable="true" type="q3:ArrayOfClass" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSubjectByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idSubject" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSubjectByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetSubjectByIDResult" nillable="true" type="q4:Subject" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSubjectByName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nameSubject" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSubjectByNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q5="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetSubjectByNameResult" nillable="true" type="q5:Subject" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllSubject">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllSubjectResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q6="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetAllSubjectResult" nillable="true" type="q6:ArrayOfSubject" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSubjectByClassID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idClass" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetSubjectByClassIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q7="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetSubjectByClassIDResult" nillable="true" type="q7:ArrayOfSubject" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPartByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idPart" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPartByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q8="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetPartByIDResult" nillable="true" type="q8:Part" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPartByName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="namePart" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetPartByNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q9="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetPartByNameResult" nillable="true" type="q9:Part" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPart">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllPartResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q10="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetAllPartResult" nillable="true" type="q10:ArrayOfPart" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLessonByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idLesson" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLessonByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q11="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetLessonByIDResult" nillable="true" type="q11:Lesson" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLessonByName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="nameLesson" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLessonByNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q12="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetLessonByNameResult" nillable="true" type="q12:Lesson" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLessonByPartID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idPart" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetLessonByPartIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q13="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetLessonByPartIDResult" nillable="true" type="q13:ArrayOfLesson" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTheoryByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idTheory" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTheoryByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q14="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetTheoryByIDResult" nillable="true" type="q14:Theory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTheoryByLessonID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idLesson" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTheoryByLessonIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q15="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetTheoryByLessonIDResult" nillable="true" type="q15:ArrayOfTheory" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetExerciseByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idExercise" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetExerciseByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q16="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetExerciseByIDResult" nillable="true" type="q16:Exercise" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetExerciseByLessonID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="idLesson" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetExerciseByLessonIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q17="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetExerciseByLessonIDResult" nillable="true" type="q17:ArrayOfExercise" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByID">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q18="http://schemas.microsoft.com/2003/10/Serialization/" minOccurs="0" name="ID" type="q18:guid" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByIDResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q19="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetUserByIDResult" nillable="true" type="q19:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByEmail">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="email" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByEmailResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q20="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetUserByEmailResult" nillable="true" type="q20:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByName">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="name" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUserByNameResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q21="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetUserByNameResult" nillable="true" type="q21:User" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllUser">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetAllUserResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element xmlns:q22="http://schemas.datacontract.org/2004/07/PrimaryEducationSystem.Core.Database" minOccurs="0" name="GetAllUserResult" nillable="true" type="q22:ArrayOfUser" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>
