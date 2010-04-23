@@ -1,0 +1,21 @@
+﻿<configuration>
+    <system.serviceModel>
+        <bindings>
+            <basicHttpBinding>
+                <binding name="BasicHttpBinding_IDemo" maxBufferSize="2147483647"
+                    maxReceivedMessageSize="2147483647">
+                    <security mode="None">
+                        <transport>
+                            <extendedProtectionPolicy policyEnforcement="Never" />
+                        </transport>
+                    </security>
+                </binding>
+            </basicHttpBinding>
+        </bindings>
+        <client>
+            <endpoint address="http://localhost:49602/Demo.svc" binding="basicHttpBinding"
+                bindingConfiguration="BasicHttpBinding_IDemo" contract="DemoCode.IDemo"
+                name="BasicHttpBinding_IDemo" />
+        </client>
+    </system.serviceModel>
+</configuration>
