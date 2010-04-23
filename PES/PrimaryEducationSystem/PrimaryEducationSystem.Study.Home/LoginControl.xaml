@@ -1,0 +1,172 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" 
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+    x:Class="PrimaryEducationSystem.Study.Home.LoginControl"
+    mc:Ignorable="d"
+    >
+    <UserControl.Resources>
+        <Storyboard x:Name="Close_MouseEnter_Storyboard">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image_Closed"  Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="1.293"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image_Closed" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="1.293"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image_Closed" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="2.25"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image_Closed" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="5.724"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Close_MouseLeave_Storyboard">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image_Closed" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1.293"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image_Closed" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1.293"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image_Closed" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.00" Value="2.25"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image_Closed" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00.00" Value="5.724"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        
+        <Storyboard x:Name="ShowBox_Storyboard">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="canvasPanel" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="1"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="HideBox_Storyboard">
+            <DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="canvasPanel" Storyboard.TargetProperty="(UIElement.Opacity)">
+                <EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+                <EasingDoubleKeyFrame KeyTime="00:00:01" Value="0"/>
+            </DoubleAnimationUsingKeyFrames>
+        </Storyboard>
+        <Storyboard x:Name="Storyboard_Login_Hover_"/>
+        <Style x:Key="ButtonStyle_Login" TargetType="Button">
+        	<Setter Property="Template">
+        		<Setter.Value>
+        			<ControlTemplate TargetType="Button">
+        				<Grid>
+        					<VisualStateManager.VisualStateGroups>
+        						<VisualStateGroup x:Name="FocusStates">
+        							<VisualState x:Name="Focused"/>
+        							<VisualState x:Name="Unfocused"/>
+        						</VisualStateGroup>
+        						<VisualStateGroup x:Name="CommonStates">
+        							<VisualStateGroup.Transitions>
+        								<VisualTransition GeneratedDuration="00:00:00" To="Pressed">
+        									<Storyboard>
+        										<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="img_button_Login" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+        											<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+        											<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="0.951"/>
+        										</DoubleAnimationUsingKeyFrames>
+        										<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="img_button_Login" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+        											<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+        											<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="0.951"/>
+        										</DoubleAnimationUsingKeyFrames>
+        										<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="img_button_Login" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+        											<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+        											<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="-1.901"/>
+        										</DoubleAnimationUsingKeyFrames>
+        										<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="img_button_Login" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+        											<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+        											<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="-2"/>
+        										</DoubleAnimationUsingKeyFrames>
+        									</Storyboard>
+        								</VisualTransition>
+        							</VisualStateGroup.Transitions>
+        							<VisualState x:Name="Normal"/>
+        							<VisualState x:Name="MouseOver"/>
+        							<VisualState x:Name="Pressed"/>
+        							<VisualState x:Name="Disabled"/>
+        						</VisualStateGroup>
+        					</VisualStateManager.VisualStateGroups>
+        					<Image x:Name="img_button_Login" Cursor="Hand" RenderTransformOrigin="0.5,0.5" Source="Home_Files/VaoLops_03.png" Stretch="Fill" >
+        						<Image.RenderTransform>
+        							<TransformGroup>
+        								<ScaleTransform/>
+        								<SkewTransform/>
+        								<RotateTransform/>
+        								<TranslateTransform/>
+        							</TransformGroup>
+        						</Image.RenderTransform>
+        					</Image>
+        				</Grid>
+        			</ControlTemplate>
+        		</Setter.Value>
+        	</Setter>
+        </Style>
+    </UserControl.Resources>
+
+    <Canvas x:Name="canvasPanel">
+        <Canvas x:Name="Canvas_Overflow" HorizontalAlignment="Left" Margin="0" VerticalAlignment="Top">
+        	<Rectangle x:Name="rec_Overflow" Fill="#FF020202" StrokeThickness="0" Opacity="0.3"  Canvas.Left="-742" Canvas.Top="-417" Width="1500" Height="768" Canvas.ZIndex="999"/>
+        </Canvas>
+
+    	<Image x:Name="img_Log_Back" Height="400" Width="680" Canvas.Left="-312" Canvas.Top="-233" Source="Home_Files/back.png" Stretch="Fill"/>
+
+        <Image x:Name="image_Closed" Cursor="Hand" Height="32" Width="30" Canvas.Left="293" Canvas.Top="-193" Source="Home_Files/Close.png" Stretch="Fill" ToolTipService.ToolTip="Đóng lại">
+            <Image.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Image.RenderTransform>
+        </Image>
+        <Canvas x:Name="Canvas_Log" Height="300" Width="612" Canvas.Left="-279" Canvas.Top="-208">
+
+            <Image x:Name="img_Gau" Height="181" Width="159" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Canvas.Left="-76.5" Canvas.Top="77.233" Source="Home_Files/AboutUs_07.png" Stretch="Fill" d:LayoutRounding="Auto">
+        		<Image.RenderTransform>
+        			<TransformGroup>
+        				<ScaleTransform/>
+        				<SkewTransform/>
+        				<RotateTransform Angle="-19.388"/>
+        				<TranslateTransform/>
+        			</TransformGroup>
+        		</Image.RenderTransform>
+        	</Image>
+
+            <TextBlock x:Name="lbl_Mess" Canvas.Left="62" Canvas.Top="62" FontFamily="Times New Roman" FontSize="18.667" FontWeight="Bold" Foreground="#FFD43F09" Text="Bạn hãy điền đầy đủ thông tin dưới đây trước khi vào lớp học" TextWrapping="Wrap" FontStyle="Italic"/>
+            <TextBlock x:Name="lbl_EmailLogin" Canvas.Left="42" Canvas.Top="124" FontFamily="Comic Sans MS" FontSize="18.667" FontWeight="Bold" Foreground="#FF31AB06" Text="Email Đăng Nhập" TextWrapping="Wrap"/>
+            <TextBlock x:Name="lbl_PasswordLogin" Canvas.Left="108" Canvas.Top="183" FontFamily="Comic Sans MS" FontSize="18.667" FontWeight="Bold" Foreground="#FF31AB06" Text="Mật khẩu" TextWrapping="Wrap"/>
+
+            <TextBox x:Name="txt_EmailLogin" Height="32" Width="330" Canvas.Left="232" Canvas.Top="118" TextWrapping="Wrap" BorderBrush="#FF1B960A" Foreground="#FF066FB1" FontWeight="Bold" FontSize="18.667"/>
+            <PasswordBox x:Name="txt_PasswordLogin" Canvas.Left="232" Canvas.Top="177" Width="330" Height="32" BorderBrush="#FF1E840A" Foreground="#FF066FB1" FontWeight="Bold" FontSize="18.667" SelectionForeground="White"/>
+            <Button x:Name="Button_Login" Height="81" Style="{StaticResource ButtonStyle_Login}" Width="77" Content="Button" Canvas.Left="323" Canvas.Top="240"/>
+        </Canvas>
+        <Canvas x:Name="Canvas_Out" Height="45" Width="390" Canvas.Left="-192" Canvas.Top="-76" Visibility="Collapsed">
+        	<TextBlock x:Name="lbl_Logout" FontFamily="Comic Sans MS" FontSize="32" FontWeight="Bold" Text="Bạn đã ra khỏi lớp học !" TextWrapping="Wrap">
+        		<TextBlock.Foreground>
+        			<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+        				<GradientStop Color="#FFF4995C" Offset="0.519"/>
+        				<GradientStop Color="#FFDA5800" Offset="0.658"/>
+        			</LinearGradientBrush>
+        		</TextBlock.Foreground>
+        	</TextBlock>
+        	<Image x:Name="img_Gau_LogOut" Height="181" Width="159" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Canvas.Left="313.5" Canvas.Top="66.733" Source="Home_Files/AboutUs_07.png" Stretch="Fill" d:LayoutRounding="Auto">
+        		<Image.RenderTransform>
+        			<TransformGroup>
+        				<ScaleTransform/>
+        				<SkewTransform/>
+        				<RotateTransform Angle="-324.23"/>
+        				<TranslateTransform/>
+        			</TransformGroup>
+        		</Image.RenderTransform>
+        	</Image>
+        </Canvas>
+        <HyperlinkButton x:Name="lbt_Forgotpass" Content="Bạn quên mật khẩu ?" Canvas.Left="-192" Canvas.Top="44" Foreground="#FF31AB06" FontSize="13.333" FontWeight="Bold"/>
+    </Canvas>
+</UserControl>

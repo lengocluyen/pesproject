@@ -53,6 +53,8 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.Expression.Interactions, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
     <Reference Include="System.Windows" />
     <Reference Include="mscorlib" />
     <Reference Include="system" />
@@ -67,14 +69,23 @@
     <Reference Include="System.Windows.Browser" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AlphabetTable.xaml.cs">
+    <Compile Include="Home.xaml.cs">
+      <DependentUpon>Home.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="LoginControl.xaml.cs">
+      <DependentUpon>LoginControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\AlphabetTable.xaml.cs">
       <DependentUpon>AlphabetTable.xaml</DependentUpon>
     </Compile>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
-    <Compile Include="Home.xaml.cs">
-      <DependentUpon>Home.xaml</DependentUpon>
+    <Compile Include="Views\ChonLopControl.xaml.cs">
+      <DependentUpon>ChonLopControl.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="ChooseClass.xaml.cs">
+      <DependentUpon>ChooseClass.xaml</DependentUpon>
     </Compile>
     <Compile Include="HomeLop01.xaml.cs">
       <DependentUpon>HomeLop01.xaml</DependentUpon>
@@ -83,17 +94,34 @@
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\PESServices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <ApplicationDefinition Include="App.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:MarkupCompilePass1</Generator>
     </ApplicationDefinition>
-    <Page Include="AlphabetTable.xaml">
+    <Page Include="Home.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+    </Page>
+    <Page Include="LoginControl.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Page Include="Home.xaml">
+    <Page Include="Views\AlphabetTable.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="Views\ChonLopControl.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="ChooseClass.xaml">
       <Generator>MSBuild:MarkupCompilePass1</Generator>
       <SubType>Designer</SubType>
     </Page>
@@ -108,6 +136,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Properties\AppManifest.xml" />
+    <Content Include="ServiceReferences.ClientConfig" />
   </ItemGroup>
   <ItemGroup>
     <Resource Include="Home_Files\Camp.png" />
@@ -193,6 +222,36 @@
   </ItemGroup>
   <ItemGroup>
     <Resource Include="bangChuCai_Files\**\*.jpg;bangChuCai_Files\**\*.jpeg;bangChuCai_Files\**\*.png;bangChuCai_Files\**\*.bmp;bangChuCai_Files\**\*.gif;bangChuCai_Files\**\*.tif;bangChuCai_Files\**\*.tiff" />
+    <Resource Include="ChonLopHoc_Files\Cloudes.png" />
+    <Resource Include="ChonLopHoc_Files\image0.png" />
+    <Resource Include="ChonLopHoc_Files\image1.png" />
+    <Resource Include="ChonLopHoc_Files\image2.png" />
+    <Resource Include="ChonLopHoc_Files\image3.png" />
+    <Resource Include="ChonLopHoc_Files\image4.png" />
+    <Resource Include="ChonLopHoc_Files\image5.png" />
+    <Resource Include="ChonLopHoc_Files\image6.png" />
+    <Resource Include="ChonLopHoc_Files\image7.png" />
+    <Resource Include="ChonLopHoc_Files\image8.png" />
+    <Resource Include="Home_Files\AboutUs_03.png" />
+    <Resource Include="Home_Files\AboutUs_07.png" />
+    <Resource Include="Home_Files\back.png" />
+    <Resource Include="Home_Files\chimAnh.png" />
+    <Resource Include="Home_Files\chimEm.png" />
+    <Resource Include="Home_Files\Close.png" />
+    <Resource Include="Home_Files\DamMay_Icon.png" />
+    <Resource Include="Home_Files\DangKi_Icon.png" />
+    <Resource Include="Home_Files\DangKi_Text.png" />
+    <Resource Include="Home_Files\DangNhap_Icon.png" />
+    <Resource Include="Home_Files\DangNhap_Text.png" />
+    <Resource Include="Home_Files\GioiThieu_Icon.png" />
+    <Resource Include="Home_Files\GioiThieu_Text.png" />
+    <Resource Include="Home_Files\Profile_Icon.png" />
+    <Resource Include="Home_Files\Profile_Text.png" />
+    <Resource Include="Home_Files\Thoat_Icon.png" />
+    <Resource Include="Home_Files\Thoat_Text.png" />
+    <Resource Include="Home_Files\ThongBao_Icon.png" />
+    <Resource Include="Home_Files\ThongBao_Text.png" />
+    <Resource Include="Home_Files\VaoLops_03.png" />
     <Resource Include="Lop01_Files\abacus_128.png" />
     <Resource Include="Lop01_Files\agenda.png" />
     <Resource Include="Lop01_Files\altavoz.png" />
@@ -203,6 +262,7 @@
     <Resource Include="Lop01_Files\Dragonfly3.png" />
     <Resource Include="Lop01_Files\Flower.png" />
     <Resource Include="Lop01_Files\Gragonfly1.png" />
+    <Resource Include="Lop01_Files\Home.png" />
     <Resource Include="Lop01_Files\iCandy_Junior 025.png" />
     <Resource Include="Lop01_Files\librero.png" />
     <Resource Include="Lop01_Files\pencil_128.png" />
@@ -210,6 +270,41 @@
     <Resource Include="Lop01_Files\pens.png" />
     <Resource Include="Lop01_Files\staroffice.png" />
     <Resource Include="Lop01_Files\WallApp.png" />
+    <None Include="Service References\PESServices\configuration91.svcinfo" />
+    <None Include="Service References\PESServices\configuration.svcinfo" />
+    <None Include="Service References\PESServices\PESServices1.wsdl" />
+    <None Include="Service References\PESServices\PESServices3.xsd" />
+    <None Include="Service References\PESServices\PESServices31.xsd" />
+    <None Include="Service References\PESServices\PESServices32.xsd" />
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Home.PESServices.Class.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Home.PESServices.Exercise.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Home.PESServices.Lesson.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Home.PESServices.Part.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Home.PESServices.Subject.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Home.PESServices.Theory.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Home.PESServices.User.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\PESServices\PESServices1.disco" />
+    <Content Include="Sound\CRUMPLE.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
     <Content Include="Sound\menu.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
@@ -219,6 +314,12 @@
     <Content Include="Sound\TiengChim_2.mp3">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\PESServices\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

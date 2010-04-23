@@ -42,64 +42,64 @@
 				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-124.5"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="8.045"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:02" Value="8.045"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(SkewTransform.AngleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="13.325"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:02" Value="13.325"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.439"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.439"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="-36.75"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:02" Value="-36.75"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.578"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="0.578"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="-28.5"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="-28.5"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="10.482"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="10.482"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(SkewTransform.AngleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="14.128"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="14.128"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.696"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="0.696"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="-21"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="-21"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="6.37"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="6.37"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(SkewTransform.AngleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="7.021"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="7.021"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.819"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="0.819"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="-12.75"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="-12.75"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="6.51"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="6.51"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(SkewTransform.AngleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="5.123"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="5.123"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__0" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.886"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="0.886"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__0" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="-8.25"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="-8.25"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__0" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="4.757"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="4.757"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__0" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[1].(SkewTransform.AngleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="3.296"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="3.296"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="_" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
 				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.929"/>
@@ -114,19 +114,19 @@
 				<EasingColorKeyFrame KeyTime="00:00:01" Value="#FF7E90F3"/>
 			</ColorAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__4" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.987"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:02" Value="0.987"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__3" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.993"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="0.993"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__2" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.995"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9800000" Value="0.995"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__1" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.985"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="0.985"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="__0" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.988"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9400000" Value="0.988"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="_" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
 				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="0.989"/>
@@ -312,10 +312,6 @@
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
 				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="8.229"/>
 			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapVe" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="334.1"/>
-			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
 		<Storyboard x:Name="WritingStudyAm" AutoReverse="True">
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="NoteTapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
@@ -335,46 +331,46 @@
 				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="2.993"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="1.653"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4800000" Value="1.653"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="1.653"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4800000" Value="1.653"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="746.035"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4800000" Value="746.035"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00.8000000" Value="185.004"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4800000" Value="185.004"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Pencil" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="26.933">
+				<EasingDoubleKeyFrame KeyTime="00:00:01.1400000" Value="26.933">
 					<EasingDoubleKeyFrame.EasingFunction>
 						<BounceEase EasingMode="EaseOut"/>
 					</EasingDoubleKeyFrame.EasingFunction>
 				</EasingDoubleKeyFrame>
-				<EasingDoubleKeyFrame KeyTime="00:00:02.2000000" Value="-82.297"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:02.8000000" Value="-38.904"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:03.3000000" Value="-17.956"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:03.8000000" Value="28.43"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.3880000" Value="-82.297"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.6850000" Value="-38.904"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9320000" Value="-17.956"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:02.1800000" Value="28.43"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Pencil" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:01.7000000" Value="-4.489">
+				<EasingDoubleKeyFrame KeyTime="00:00:01.1400000" Value="-4.489">
 					<EasingDoubleKeyFrame.EasingFunction>
 						<BounceEase EasingMode="EaseOut"/>
 					</EasingDoubleKeyFrame.EasingFunction>
 				</EasingDoubleKeyFrame>
-				<EasingDoubleKeyFrame KeyTime="00:00:02.2000000" Value="-34.415"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:02.8000000" Value="-59.852"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:03.3000000" Value="-29.926"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:03.8000000" Value="-56.86"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.3880000" Value="-34.415"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.6850000" Value="-59.852"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:01.9320000" Value="-29.926"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:02.1800000" Value="-56.86"/>
 			</DoubleAnimationUsingKeyFrames>
 			<PointAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="Pencil" Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)">
-				<EasingPointKeyFrame KeyTime="00:00:01.7000000" Value="0.5,0.5">
+				<EasingPointKeyFrame KeyTime="00:00:01.1400000" Value="0.5,0.5">
 					<EasingPointKeyFrame.EasingFunction>
 						<BounceEase EasingMode="EaseOut"/>
 					</EasingPointKeyFrame.EasingFunction>
 				</EasingPointKeyFrame>
-				<EasingPointKeyFrame KeyTime="00:00:02.2000000" Value="0.369,0.828"/>
+				<EasingPointKeyFrame KeyTime="00:00:01.3880000" Value="0.369,0.828"/>
 			</PointAnimationUsingKeyFrames>
 		</Storyboard>
 		<Storyboard x:Name="AcounttingTableAm">
@@ -393,28 +389,6 @@
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="NoteBangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
 				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="6.734"/>
-			</DoubleAnimationUsingKeyFrames>
-			<PointAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Duration="00:00:00.0010000">
-				<EasingPointKeyFrame KeyTime="00:00:00" Value="0.076,0.937"/>
-			</PointAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)" Duration="00:00:00.0010000">
-				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.058"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.058"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="-6.913"/>
-			</DoubleAnimationUsingKeyFrames>
-			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="-0.471"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
 		<Storyboard x:Name="BookcaseAm" AutoReverse="True">
@@ -460,59 +434,73 @@
 		<Storyboard x:Name="TarofficeAm" RepeatBehavior="Forever">
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="taroffice" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.024"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4800000" Value="0.994"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="taroffice" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="1.024"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4800000" Value="0.994"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="taroffice" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="-2.238"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4800000" Value="-0.027"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="taroffice" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="4.344"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.4800000" Value="-0.468"/>
 			</DoubleAnimationUsingKeyFrames>
-			<PointAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="taroffice" Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)">
+			<PointAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="taroffice" Storyboard.TargetProperty="(UIElement.RenderTransformOrigin)" Duration="00:00:00.0010000">
 				<EasingPointKeyFrame KeyTime="00:00:00" Value="0.5,0.5"/>
-				<EasingPointKeyFrame KeyTime="00:00:00.2000000" Value="-0.03,0.205"/>
 			</PointAnimationUsingKeyFrames>
 		</Storyboard>
 		<Storyboard x:Name="Dragonfly1" RepeatBehavior="Forever">
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="GragonflyLeft" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="1.026"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0.996"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.0800000" Value="1.014"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2800000" Value="0.996"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="GragonflyLeft" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="1.026"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="0.996"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.0800000" Value="1.014"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2800000" Value="0.996"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="GragonflyLeft" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="0.091"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-0.014"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.0800000" Value="0.048"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2800000" Value="-0.014"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="GragonflyLeft" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
 				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="1.939"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:00.5000000" Value="-0.295"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.0800000" Value="1.031"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2800000" Value="-0.295"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
 		<Storyboard x:Name="DragonFly2Am" RepeatBehavior="Forever" AutoReverse="False">
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="67.333"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:02" Value="-83.793"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:03" Value="-34.416"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="-0.396"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:09.9800000" Value="-351.53">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<BounceEase EasingMode="EaseOut" Bounces="1"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+				<EasingDoubleKeyFrame KeyTime="00:00:22.0400000" Value="-1153.552"/>
 			</DoubleAnimationUsingKeyFrames>
 			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
-				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:01" Value="263.351"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:02" Value="327.691"/>
-				<EasingDoubleKeyFrame KeyTime="00:00:03" Value="392.032"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="15.331"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:09.9800000" Value="-92.403">
+					<EasingDoubleKeyFrame.EasingFunction>
+						<BounceEase EasingMode="EaseOut" Bounces="1"/>
+					</EasingDoubleKeyFrame.EasingFunction>
+				</EasingDoubleKeyFrame>
+				<EasingDoubleKeyFrame KeyTime="00:00:22.0400000" Value="17.327"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1.278"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="-1.278"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="61.314"/>
 			</DoubleAnimationUsingKeyFrames>
 		</Storyboard>
 		<Storyboard x:Name="Dragonfly3Am" RepeatBehavior="Forever">
@@ -551,13 +539,88 @@
 									<VisualState x:Name="Unfocused"/>
 								</VisualStateGroup>
 								<VisualStateGroup x:Name="CommonStates">
+									<VisualStateGroup.Transitions>
+										<VisualTransition GeneratedDuration="00:00:00" To="Pressed">
+											<Storyboard>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ThoiKhoaBieu" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="1.082"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ThoiKhoaBieu" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="1.082"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ThoiKhoaBieu" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="5.237"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ThoiKhoaBieu" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="5.237"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="1.07"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="4.489"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="1.025"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="1.496"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(Rectangle.RadiusX)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2200000" Value="15"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="0"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="rectangle" Storyboard.TargetProperty="(UIElement.Effect).(BlurEffect.Radius)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2200000" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2400000" Value="56"/>
+												</DoubleAnimationUsingKeyFrames>
+											</Storyboard>
+										</VisualTransition>
+									</VisualStateGroup.Transitions>
 									<VisualState x:Name="Normal"/>
 									<VisualState x:Name="MouseOver"/>
 									<VisualState x:Name="Pressed"/>
 									<VisualState x:Name="Disabled"/>
 								</VisualStateGroup>
 							</VisualStateManager.VisualStateGroups>
-							<Image x:Name="ThoiKhoaBieu" Source="Lop01_Files/agenda.png" Stretch="Fill" MouseEnter="ThoiKhoaBieu_MouseEnter"/>
+							<Rectangle x:Name="rectangle" Fill="#FF002EFF" Stroke="Black" Margin="0,8,0,0" RenderTransformOrigin="0.5,0.5">
+								<Rectangle.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Rectangle.RenderTransform>
+								<Rectangle.Effect>
+									<BlurEffect Radius="0"/>
+								</Rectangle.Effect>
+								<Rectangle.OpacityMask>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="Black" Offset="0"/>
+										<GradientStop Color="#FFAB8888" Offset="1"/>
+									</LinearGradientBrush>
+								</Rectangle.OpacityMask>
+							</Rectangle>
+							<Image x:Name="ThoiKhoaBieu" Source="Lop01_Files/agenda.png" Stretch="Fill" MouseEnter="ThoiKhoaBieu_MouseEnter" RenderTransformOrigin="0.5,0.5">
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseEnter">
+										<im:PlaySoundAction Source="/Sound/menu.mp3" Volume="1"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+							</Image>
 						</Grid>
 					</ControlTemplate>
 				</Setter.Value>
@@ -574,6 +637,16 @@
 									<VisualState x:Name="Unfocused"/>
 								</VisualStateGroup>
 								<VisualStateGroup x:Name="CommonStates">
+									<VisualStateGroup.Transitions>
+										<VisualTransition GeneratedDuration="00:00:00" To="Pressed">
+											<Storyboard AutoReverse="True">
+												<DoubleAnimation Duration="00:00:00.2000000" Storyboard.TargetName="bangChucai" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)" To="1.023"/>
+												<DoubleAnimation Duration="00:00:00.2000000" Storyboard.TargetName="bangChucai" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)" To="1.023"/>
+												<DoubleAnimation Duration="00:00:00.2000000" Storyboard.TargetName="bangChucai" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)" To="1.496"/>
+												<DoubleAnimation Duration="00:00:00.2000000" Storyboard.TargetName="bangChucai" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)" To="1.496"/>
+											</Storyboard>
+										</VisualTransition>
+									</VisualStateGroup.Transitions>
 									<VisualState x:Name="Normal"/>
 									<VisualState x:Name="MouseOver"/>
 									<VisualState x:Name="Pressed">
@@ -604,6 +677,11 @@
 								</VisualStateGroup>
 							</VisualStateManager.VisualStateGroups>
 							<Image x:Name="bangChucai" Source="Lop01_Files/metafont.png" Stretch="Fill" MouseEnter="bangChucai_MouseEnter" RenderTransformOrigin="0.5,0.5">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseEnter">
+										<im:PlaySoundAction Source="/Sound/menu.mp3"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
 								<Image.RenderTransform>
 									<TransformGroup>
 										<ScaleTransform/>
@@ -673,6 +751,247 @@
 				</Setter.Value>
 			</Setter>
 		</Style>
+		<Storyboard x:Name="Storyboard_DragonflyTho" RepeatBehavior="Forever">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Duration="00:00:00.0010000" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[2].(RotateTransform.Angle)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="60.654"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0.965"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="-1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="-0.965"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="0.557"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="DaragonflyRight" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2000000" Value="-2.08"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Style x:Key="ButtonStyle_TapVe" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid>
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="FocusStates">
+									<VisualState x:Name="Focused"/>
+									<VisualState x:Name="Unfocused"/>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualStateGroup.Transitions>
+										<VisualTransition GeneratedDuration="00:00:00" To="Pressed">
+											<Storyboard AutoReverse="True">
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapVe" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.3200000" Value="1.101"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapVe" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.3200000" Value="1.101"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapVe" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.3200000" Value="9.726"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapVe" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.3200000" Value="9.726"/>
+												</DoubleAnimationUsingKeyFrames>
+											</Storyboard>
+										</VisualTransition>
+									</VisualStateGroup.Transitions>
+									<VisualState x:Name="Normal"/>
+									<VisualState x:Name="MouseOver"/>
+									<VisualState x:Name="Pressed"/>
+									<VisualState x:Name="Disabled"/>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+							<Image x:Name="TapVe" RenderTransformOrigin="0.5,0.5" Source="Lop01_Files/BMP.png" Stretch="Fill" MouseEnter="TapVe_MouseEnter" MouseLeave="TapVe_MouseLeave">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseEnter">
+										<im:PlaySoundAction Source="/Sound/menu.mp3"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+							</Image>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Name="StoryboardTapViet" AutoReverse="True">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2600000" Value="1.107"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2600000" Value="1.107"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="787.18402099609375"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2600000" Value="793.917"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="TapViet" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="217.00799560546875"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.2600000" Value="222.245"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
+		<Style x:Key="ButtonStyl_BangTinh" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid>
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="FocusStates">
+									<VisualState x:Name="Focused"/>
+									<VisualState x:Name="Unfocused"/>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualStateGroup.Transitions>
+										<VisualTransition GeneratedDuration="00:00:00" To="Pressed">
+											<Storyboard AutoReverse="True">
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2600000" Value="1.094"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2600000" Value="1.094"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2600000" Value="5.985"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BangTinh" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.2600000" Value="5.985"/>
+												</DoubleAnimationUsingKeyFrames>
+											</Storyboard>
+										</VisualTransition>
+									</VisualStateGroup.Transitions>
+									<VisualState x:Name="Normal"/>
+									<VisualState x:Name="MouseOver"/>
+									<VisualState x:Name="Pressed"/>
+									<VisualState x:Name="Disabled"/>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+							<Image x:Name="BangTinh" RenderTransformOrigin="0.5,0.5" Source="Lop01_Files/abacus_128.png" Stretch="Fill" MouseEnter="BangTinh_MouseEnter" MouseLeave="BangTinh_MouseLeave">
+								<i:Interaction.Triggers>
+									<i:EventTrigger EventName="MouseEnter">
+										<im:PlaySoundAction Source="/Sound/menu.mp3"/>
+									</i:EventTrigger>
+								</i:Interaction.Triggers>
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+							</Image>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Style x:Key="ButtonStyle_Home" TargetType="Button">
+			<Setter Property="Template">
+				<Setter.Value>
+					<ControlTemplate TargetType="Button">
+						<Grid>
+							<VisualStateManager.VisualStateGroups>
+								<VisualStateGroup x:Name="FocusStates">
+									<VisualState x:Name="Focused"/>
+									<VisualState x:Name="Unfocused"/>
+								</VisualStateGroup>
+								<VisualStateGroup x:Name="CommonStates">
+									<VisualStateGroup.Transitions>
+										<VisualTransition GeneratedDuration="00:00:00" To="Pressed">
+											<Storyboard>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="0.979"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="0.979"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="-0.998"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="image" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+													<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="-0.998"/>
+												</DoubleAnimationUsingKeyFrames>
+												<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="ellipse" Storyboard.TargetProperty="(UIElement.Opacity)">
+													<EasingDoubleKeyFrame KeyTime="00:00:00.1000000" Value="0.705"/>
+												</DoubleAnimationUsingKeyFrames>
+											</Storyboard>
+										</VisualTransition>
+									</VisualStateGroup.Transitions>
+									<VisualState x:Name="Normal"/>
+									<VisualState x:Name="MouseOver"/>
+									<VisualState x:Name="Pressed"/>
+									<VisualState x:Name="Disabled"/>
+								</VisualStateGroup>
+							</VisualStateManager.VisualStateGroups>
+							<Image x:Name="image" Source="Lop01_Files/Home.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
+								<Image.RenderTransform>
+									<TransformGroup>
+										<ScaleTransform/>
+										<SkewTransform/>
+										<RotateTransform/>
+										<TranslateTransform/>
+									</TransformGroup>
+								</Image.RenderTransform>
+							</Image>
+							<Ellipse x:Name="ellipse" Stroke="Black" Margin="12,15,16,14" Opacity="0">
+								<Ellipse.Fill>
+									<LinearGradientBrush EndPoint="0.5,1" StartPoint="0.5,0">
+										<GradientStop Color="#FF42FF00" Offset="0"/>
+										<GradientStop Color="#FFC1FCAD" Offset="1"/>
+										<GradientStop Color="#FFABFC8F" Offset="0.459"/>
+									</LinearGradientBrush>
+								</Ellipse.Fill>
+							</Ellipse>
+						</Grid>
+					</ControlTemplate>
+				</Setter.Value>
+			</Setter>
+		</Style>
+		<Storyboard x:Name="Storyboard_backhome">
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BackHome" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleX)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="1.416"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BackHome" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.X)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="-23.941"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BackHome" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[0].(ScaleTransform.ScaleY)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="1"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="1.249"/>
+			</DoubleAnimationUsingKeyFrames>
+			<DoubleAnimationUsingKeyFrames BeginTime="00:00:00" Storyboard.TargetName="BackHome" Storyboard.TargetProperty="(UIElement.RenderTransform).(TransformGroup.Children)[3].(TranslateTransform.Y)">
+				<EasingDoubleKeyFrame KeyTime="00:00:00" Value="0"/>
+				<EasingDoubleKeyFrame KeyTime="00:00:00.3000000" Value="4.489"/>
+			</DoubleAnimationUsingKeyFrames>
+		</Storyboard>
 	</UserControl.Resources>
 	<Grid x:Name="LayoutRoot" Width="auto" Height="auto">
 		
@@ -685,13 +1004,23 @@
 		</Image>
 		
 		<toolkit:Viewbox Stretch="Uniform">
-			<Canvas x:Name="HomeLop1" Width="1295" Height="811">
+			<Canvas x:Name="HomeLop1" Width="1295" Height="811" HorizontalAlignment="Center" VerticalAlignment="Center">
 				<i:Interaction.Triggers>
 					<i:EventTrigger EventName="Loaded">
 						<im:PlaySoundAction Source="/Sound/TiengChim_2.mp3"/>
 					</i:EventTrigger>
 				</i:Interaction.Triggers>
-				<Image x:Name="Flower" Height="811" Width="1373" Source="Lop01_Files/Flower.png" Stretch="Fill" Canvas.Left="-39"/>
+				<Image x:Name="DaragonflyRight" Height="86" Width="88" RenderTransformOrigin="0.5,0.5" Canvas.Left="1199" Canvas.Top="47" Source="Lop01_Files/Daragonfly2.png" Stretch="Fill">
+					<Image.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform ScaleY="-1"/>
+							<SkewTransform/>
+							<RotateTransform Angle="70.895"/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Image.RenderTransform>
+				</Image>
+				<Image x:Name="Flower" Height="799" Width="1354" Source="Lop01_Files/Flower.png" Stretch="Fill" Canvas.Left="-49" Canvas.Top="12"/>
 		
 				<Canvas x:Name="Table" Margin="292,0,266,104" HorizontalAlignment="Center" Width="698" Height="658" VerticalAlignment="Center">
 					<Image x:Name="Song_sat" Source="Lop01_files/image1.png" Width="1056" Height="744" Canvas.Left="-390" Canvas.Top="-95">
@@ -767,7 +1096,12 @@
 							</TransformGroup>
 						</Image.RenderTransform>
 					</Image>
-					<Image x:Name="TapViet" Source="Lop01_files/image16.png" Width="126" Height="98" Canvas.Left="-227" Canvas.Top="-25" RenderTransformOrigin="0.5,0.5" MouseEnter="TapViet_MouseEnter" MouseLeave="TapViet_MouseLeave">
+					<Image x:Name="TapViet" Source="Lop01_files/image16.png" Width="126" Height="98" Canvas.Left="-227" Canvas.Top="-25" RenderTransformOrigin="0.5,0.5" MouseEnter="TapViet_MouseEnter" MouseLeave="TapViet_MouseLeave" MouseLeftButtonDown="TapViet_MouseLeftButtonDown">
+						<i:Interaction.Triggers>
+							<i:EventTrigger EventName="MouseEnter">
+								<im:PlaySoundAction Source="/Sound/menu.mp3"/>
+							</i:EventTrigger>
+						</i:Interaction.Triggers>
 						<Image.RenderTransform>
 							<TransformGroup>
 								<ScaleTransform/>
@@ -778,16 +1112,6 @@
 						</Image.RenderTransform>
 					</Image>
 					<Image x:Name="Pencil" Height="128" Width="128" Canvas.Left="562" Canvas.Top="123" Source="Lop01_Files/pencil_128.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5">
-						<Image.RenderTransform>
-							<TransformGroup>
-								<ScaleTransform/>
-								<SkewTransform/>
-								<RotateTransform/>
-								<TranslateTransform/>
-							</TransformGroup>
-						</Image.RenderTransform>
-					</Image>
-					<Image x:Name="DaragonflyRight" Height="81" Width="83" RenderTransformOrigin="0.5,0.5" Canvas.Left="894" Canvas.Top="123" Source="Lop01_Files/Daragonfly2.png" Stretch="Fill">
 						<Image.RenderTransform>
 							<TransformGroup>
 								<ScaleTransform/>
@@ -835,16 +1159,7 @@
 							</TransformGroup>
 						</Image.RenderTransform>
 					</Image>
-					<Image x:Name="TapVe" Height="192" Width="192" Canvas.Left="280" Canvas.Top="64" Source="Lop01_Files/BMP.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" MouseEnter="TapVe_MouseEnter" MouseLeave="TapVe_MouseLeave">
-						<Image.RenderTransform>
-							<TransformGroup>
-								<ScaleTransform/>
-								<SkewTransform/>
-								<RotateTransform/>
-								<TranslateTransform/>
-							</TransformGroup>
-						</Image.RenderTransform>
-					</Image>
+					<Button Height="192" Style="{StaticResource ButtonStyle_TapVe}" Width="192" Content="Button" Canvas.Left="280" Canvas.Top="64"/>
 					<Image x:Name="EchKepGiay" Height="109" Width="41" Canvas.Left="361" Source="Lop01_Files/image11.png" Stretch="Fill" Canvas.Top="34" RenderTransformOrigin="0.5,0.5">
 						<Image.RenderTransform>
 							<TransformGroup>
@@ -855,10 +1170,10 @@
 							</TransformGroup>
 						</Image.RenderTransform>
 					</Image>
-					<Border x:Name="MonTiengViet" Height="151" Width="114" Canvas.Left="308" Canvas.Top="491" MouseEnter="TiengViet_MouseEnter" MouseLeave="TiengViet_MouseLeave">
+					<Border x:Name="MonTiengViet" Height="151" Width="114" Canvas.Left="308" Canvas.Top="491" MouseEnter="TiengViet_MouseEnter" MouseLeave="TiengViet_MouseLeave" MouseLeftButtonDown="MonTiengViet_MouseLeftButtonDown">
 						<i:Interaction.Triggers>
 							<i:EventTrigger EventName="MouseEnter">
-								<im:PlaySoundAction Source="/Sound/paper-rip-3.mp3" Volume="0.6"/>
+								<im:PlaySoundAction x:Name="TiengViet_Sound" Source="/Sound/CRUMPLE.mp3" Volume="0.5"/>
 							</i:EventTrigger>
 						</i:Interaction.Triggers>
 						<Grid>
@@ -1067,10 +1382,10 @@
 							</Canvas>
 						</Grid>
 					</Border>
-					<Border x:Name="MonToan" Height="192" Width="148" Canvas.Left="93" Canvas.Top="510" MouseEnter="Toan_MouseEnter" MouseLeave="MonToan_MouseLeave">
+					<Border x:Name="MonToan" Height="192" Width="148" Canvas.Left="93" Canvas.Top="510" MouseEnter="Toan_MouseEnter" MouseLeave="MonToan_MouseLeave" MouseLeftButtonUp="MonToan_MouseLeftButtonUp">
 						<i:Interaction.Triggers>
 							<i:EventTrigger EventName="MouseEnter">
-								<im:PlaySoundAction Source="/Sound/paper-rip-3.mp3" Volume="1"/>
+								<im:PlaySoundAction x:Name="MonToan_Sound" Source="/Sound/CRUMPLE.mp3" Volume="0.8"/>
 							</i:EventTrigger>
 						</i:Interaction.Triggers>
 						<Grid>
@@ -1170,17 +1485,8 @@
 							</Path>
 						</Grid>
 					</Border>
-					<Image x:Name="BangTinh" Height="128" Width="128" Canvas.Left="641" Canvas.Top="317" Source="Lop01_Files/abacus_128.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" MouseEnter="BangTinh_MouseEnter" MouseLeave="BangTinh_MouseLeave">
-						<Image.RenderTransform>
-							<TransformGroup>
-								<ScaleTransform/>
-								<SkewTransform/>
-								<RotateTransform/>
-								<TranslateTransform/>
-							</TransformGroup>
-						</Image.RenderTransform>
-					</Image>
-					<Image x:Name="GiaSach" Height="314.089" Width="313.418" Canvas.Left="576.284" Canvas.Top="504.003" Source="Lop01_Files/librero.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" MouseEnter="GiaSach_MouseEnter">
+					<Button Height="128" Style="{StaticResource ButtonStyl_BangTinh}" Width="128" Content="Button" Canvas.Left="641" Canvas.Top="317"/>
+					<Image x:Name="GiaSach" Height="314.089" Width="313.418" Canvas.Left="576.284" Canvas.Top="504.003" Source="Lop01_Files/librero.png" Stretch="Fill" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" d:LayoutRounding="Auto" MouseEnter="GiaSach_MouseEnter" MouseLeave="GiaSach_MouseLeave">
 						<Image.RenderTransform>
 							<TransformGroup>
 								<ScaleTransform/>
@@ -1190,7 +1496,7 @@
 							</TransformGroup>
 						</Image.RenderTransform>
 					</Image>
-					<Border x:Name="NoteThoiKhoaBieu" Height="36" Width="139" Canvas.Left="-73" Canvas.Top="195" RenderTransformOrigin="0.5,0.5">
+					<Border x:Name="NoteThoiKhoaBieu" Height="36" Width="139" Canvas.Left="-89" Canvas.Top="200" RenderTransformOrigin="0.5,0.5">
 						<Border.RenderTransform>
 							<TransformGroup>
 								<ScaleTransform/>
@@ -1325,7 +1631,7 @@
 							<TextBlock Margin="8,10,3,3" FontWeight="Bold" Foreground="Black" Text="THƯ VIỆN SÁCH" TextWrapping="Wrap" FontSize="16"/>
 						</Grid>
 					</Border>
-					<Image x:Name="taroffice" Height="124.163" Width="124.164" RenderTransformOrigin="0.5,0.5" Canvas.Left="-272.093" Canvas.Top="187.115" Source="Lop01_Files/staroffice.png" Stretch="Fill" UseLayoutRounding="False" d:LayoutRounding="Auto">
+					<Image x:Name="taroffice" Height="161.578" Width="161.579" RenderTransformOrigin="0.5,0.5" Canvas.Left="-281.634" Canvas.Top="351.327" Source="Lop01_Files/staroffice.png" Stretch="Fill" UseLayoutRounding="False" d:LayoutRounding="Auto">
 						<Image.RenderTransform>
 							<TransformGroup>
 								<ScaleTransform/>
@@ -1338,6 +1644,34 @@
 					<Image x:Name="Clock" Height="128" Width="128" Canvas.Left="-113" Canvas.Top="574" Source="Lop01_Files/iCandy_Junior 025.png" Stretch="Fill"/>
 					<Image x:Name="PenBox" Height="126" Width="120" Canvas.Left="-184" Canvas.Top="618" Source="Lop01_Files/image6.png" Stretch="Fill"/>
 				</Canvas>
+				<Button Height="97" Style="{StaticResource ButtonStyle_Home}" Width="97" Content="Button" Canvas.Left="123" Canvas.Top="12" Click="Button_Click" MouseEnter="Button_MouseEnter" MouseLeave="Button_MouseLeave"/>
+				<Border x:Name="BackHome" Height="36" Width="115" Canvas.Left="93" Canvas.Top="100" RenderTransformOrigin="0.5,0.5">
+					<Border.RenderTransform>
+						<TransformGroup>
+							<ScaleTransform/>
+							<SkewTransform/>
+							<RotateTransform/>
+							<TranslateTransform/>
+						</TransformGroup>
+					</Border.RenderTransform>
+					<Grid>
+						<Rectangle Stroke="Black">
+							<Rectangle.Fill>
+								<LinearGradientBrush EndPoint="0.993,0.979" StartPoint="0.003,0">
+									<GradientStop Color="#FF20FF00" Offset="0.012"/>
+									<GradientStop Color="White" Offset="0.651"/>
+									<GradientStop Color="#FFD0D0D0" Offset="0.104"/>
+									<GradientStop Color="#FF5FFF18" Offset="0.631"/>
+									<GradientStop Color="#FF29FF0A" Offset="0.643"/>
+									<GradientStop Color="#FF2CFF00" Offset="0.814"/>
+									<GradientStop Color="White" Offset="0.104"/>
+								</LinearGradientBrush>
+							</Rectangle.Fill>
+						</Rectangle>
+						<Rectangle Fill="White" Stroke="Black" Margin="7,10,3,3"/>
+						<TextBlock Margin="8,10,0,3" FontWeight="Bold" Foreground="#FF000794" Text="Trở về trang chủ" TextWrapping="Wrap" FontSize="10.667"/>
+					</Grid>
+				</Border>
 			</Canvas>
 		</toolkit:Viewbox>
 		<Border x:Name="BorderApplication" Opacity="0.88" Background="Black" d:IsHidden="True"/>	

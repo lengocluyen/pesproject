@@ -7,19 +7,37 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Animation;
 using System.Windows.Shapes;
-
+using System.Windows.Browser;
+using System.Collections;
+using System.Text;
 namespace PrimaryEducationSystem.Study.Home
 {
 	public partial class HomeLop01 : UserControl
 	{
-		public HomeLop01()
+        //protected PESServices.PESServicesClient service = new PrimaryEducationSystem.Study.Home.PESServices.PESServicesClient();
+        //protected string webURL =  HtmlPage.Document.DocumentUri.AbsoluteUri;
+        public string GetURL()
+        {
+            StringBuilder t = new StringBuilder();
+            t.Append("http://");
+            t.Append(HtmlPage.Document.DocumentUri.Host);
+            t.Append(":");
+            t.Append(HtmlPage.Document.DocumentUri.Port);
+            t.Append("/");
+            return t.ToString();
+
+        }
+        public HomeLop01()
 		{
 			// Required to initialize variables
 			InitializeComponent();
             AppCollapsed();
 			Collapsed();
             StateWall();
+
 		}
+
+        
 		private void Collapsed()
 		{
 			this.NoteBangChuCai.Visibility = Visibility.Collapsed;
@@ -28,6 +46,8 @@ namespace PrimaryEducationSystem.Study.Home
 			this.NoteThoiKhoaBieu.Visibility = Visibility.Collapsed;
 			this.NoteThuVien.Visibility = Visibility.Collapsed;
             this.NoteTapViet.Visibility = Visibility.Collapsed;
+			this.BackHome.Visibility = Visibility.Collapsed;
+
 		}
 
         private void StateWall()
@@ -36,6 +56,7 @@ namespace PrimaryEducationSystem.Study.Home
             Dragonfly1.Begin();
             DragonFly2Am.Begin();
             Dragonfly3Am.Begin();
+            Storyboard_DragonflyTho.Begin();
         }
 
 		private void TiengViet_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
@@ -45,7 +66,8 @@ namespace PrimaryEducationSystem.Study.Home
 
 		private void Toan_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
 		{
-			MathBookAm.Begin();
+            MathBookAm.Begin();
+
 		}
 
 		private void Toan_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
@@ -157,6 +179,43 @@ namespace PrimaryEducationSystem.Study.Home
         {
             WordTableAm.Stop();
             Collapsed();
+        }
+
+        private void GiaSach_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+        	Collapsed();
+        }
+
+        private void TapViet_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+        }
+
+        private void MonToan_MouseLeftButtonUp(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+            HtmlPage.Window.Navigate(new Uri(GetURL() + "OneClass/Math"));
+        }
+
+        private void MonTiengViet_MouseLeftButtonDown(object sender, System.Windows.Input.MouseButtonEventArgs e)
+        {
+        }
+
+        private void Button_Click(object sender, System.Windows.RoutedEventArgs e)
+        {
+			
+			MainPage rootPage = Application.Current.RootVisual as MainPage;
+            rootPage.LayoutRoot.Children.Add(new Home());
+        }
+
+        private void Button_MouseEnter(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+        	this.BackHome.Visibility = Visibility.Visible;
+			this.Storyboard_backhome.Begin();
+        }
+
+        private void Button_MouseLeave(object sender, System.Windows.Input.MouseEventArgs e)
+        {
+			this.Storyboard_backhome.Stop();
+			Collapsed();
         }
 
 	}

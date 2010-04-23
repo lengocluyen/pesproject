@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b027b78d-87c6-4d1e-b069-8fd07f82b23a" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings>
+      <CollectionMapping TypeName="System.Collections.ObjectModel.ObservableCollection`1" Category="List" />
+    </CollectionMappings>
+    <GenerateSerializableTypes>false</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:9999/Services/pesservices.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="PESServices3.xsd" MetadataType="Schema" ID="82dac87a-eb72-4ad5-9177-7a17b0dbf9da" SourceId="1" SourceUrl="http://localhost:9999/Services/PESServices.svc?xsd=xsd0" />
+    <MetadataFile FileName="PESServices1.disco" MetadataType="Disco" ID="9b878be4-1935-4705-bace-10814e6649c8" SourceId="1" SourceUrl="http://localhost:9999/Services/PESServices.svc?disco" />
+    <MetadataFile FileName="PESServices31.xsd" MetadataType="Schema" ID="e14b954d-bcd3-4ae0-8b99-67507bb1257f" SourceId="1" SourceUrl="http://localhost:9999/Services/PESServices.svc?xsd=xsd2" />
+    <MetadataFile FileName="PESServices1.wsdl" MetadataType="Wsdl" ID="88c4f69d-5e53-42b4-984f-23d5f7375255" SourceId="1" SourceUrl="http://localhost:9999/Services/PESServices.svc?wsdl" />
+    <MetadataFile FileName="PESServices32.xsd" MetadataType="Schema" ID="4bc3a38c-04d8-436e-8d8e-a21f9c5540ed" SourceId="1" SourceUrl="http://localhost:9999/Services/PESServices.svc?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>
