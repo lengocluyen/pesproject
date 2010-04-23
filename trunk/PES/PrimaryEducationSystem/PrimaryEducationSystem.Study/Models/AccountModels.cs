@@ -7,7 +7,6 @@ using System.Linq;
 using System.Web;
 using System.Web.Mvc;
 using System.Web.Security;
-
 namespace PrimaryEducationSystem.Study.Models
 {
 
@@ -125,24 +124,23 @@ namespace PrimaryEducationSystem.Study.Models
         }
     }
     #endregion
-
     #region Models
     [PropertiesMustMatch("NewPassword", "ConfirmPassword", ErrorMessage = "The new password and confirmation password do not match.")]
     public class ChangePasswordModel
     {
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Current password")]
         public string OldPassword { get; set; }
 
         [Required]
         [ValidatePasswordLength]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("New password")]
         public string NewPassword { get; set; }
 
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Confirm new password")]
         public string ConfirmPassword { get; set; }
     }
@@ -154,7 +152,7 @@ namespace PrimaryEducationSystem.Study.Models
         public string UserName { get; set; }
 
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Password")]
         public string Password { get; set; }
 
@@ -170,18 +168,18 @@ namespace PrimaryEducationSystem.Study.Models
         public string UserName { get; set; }
 
         [Required]
-        [DataType(DataType.EmailAddress)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.EmailAddress)]
         [DisplayName("Email address")]
         public string Email { get; set; }
 
         [Required]
         [ValidatePasswordLength]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Password")]
         public string Password { get; set; }
 
         [Required]
-        [DataType(DataType.Password)]
+        [DataType(System.ComponentModel.DataAnnotations.DataType.Password)]
         [DisplayName("Confirm password")]
         public string ConfirmPassword { get; set; }
     }

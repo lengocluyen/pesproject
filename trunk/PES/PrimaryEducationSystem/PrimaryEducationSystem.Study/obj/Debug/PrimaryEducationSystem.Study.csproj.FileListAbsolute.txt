@@ -16,11 +16,5 @@ H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\ja\System
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\ko\System.Web.Silverlight.resources.dll
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\zh-Hans\System.Web.Silverlight.resources.dll
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\zh-Hant\System.Web.Silverlight.resources.dll
-E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\de\System.Web.Silverlight.resources.dll
-E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\es\System.Web.Silverlight.resources.dll
-E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\fr\System.Web.Silverlight.resources.dll
-E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\it\System.Web.Silverlight.resources.dll
-E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\ja\System.Web.Silverlight.resources.dll
-E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\ko\System.Web.Silverlight.resources.dll
-E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\zh-Hans\System.Web.Silverlight.resources.dll
-E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\zh-Hant\System.Web.Silverlight.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\PrimaryEducationSystem.Core.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\PrimaryEducationSystem.Core.pdb
