@@ -11,10 +11,11 @@ namespace PrimaryEducationSystem.Families.Controllers
     {
         public ActionResult Index()
         {
-           ViewData["Message"] = "Welcome to ASP.NET MVC!";
            return View();
            //return Redirect(this.Url.ToString() + "//" + "Services/PESService");
         }
+
+
 
         public ActionResult About()
         {
