@@ -6,19 +6,81 @@ using System.Web.Mvc;
 
 namespace PrimaryEducationSystem.Study.Controllers
 {
-    [HandleError]
     public class HomeController : Controller
     {
+        //
+        // GET: /Home/
+
         public ActionResult Index()
         {
-            ViewData["Message"] = "Welcome to ASP.NET MVC!";
+            return View();
+        }
+        public ActionResult Math()
+        {
+            return RedirectToAction("Math", "OneClass");
+        }
+        public ActionResult MathLesson()
+        {
+            return RedirectToAction("MathLesson", "OneClass");
+        }
+        //
+        // GET: /Home/Details/5
 
+        public ActionResult Details(int id)
+        {
             return View();
         }
 
-        public ActionResult About()
+        //
+        // GET: /Home/Create
+
+        public ActionResult Create()
         {
             return View();
+        } 
+
+        //
+        // POST: /Home/Create
+
+        [HttpPost]
+        public ActionResult Create(FormCollection collection)
+        {
+            try
+            {
+                // TODO: Add insert logic here
+
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
+        }
+
+        //
+        // GET: /Home/Edit/5
+ 
+        public ActionResult Edit(int id)
+        {
+            return View();
+        }
+
+        //
+        // POST: /Home/Edit/5
+
+        [HttpPost]
+        public ActionResult Edit(int id, FormCollection collection)
+        {
+            try
+            {
+                // TODO: Add update logic here
+ 
+                return RedirectToAction("Index");
+            }
+            catch
+            {
+                return View();
+            }
         }
     }
 }
