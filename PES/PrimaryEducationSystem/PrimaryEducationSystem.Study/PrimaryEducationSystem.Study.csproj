@@ -88,7 +88,6 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClientBin\OneClass\Template_PartAndLessons.xap" />
     <Content Include="Global.asax" />
     <Content Include="Images\Class01Wall.png" />
     <Content Include="Services\PESServices.svc" />
@@ -129,7 +128,7 @@
     <Content Include="Views\Shared\LogOnUserControl.ascx" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ClientBin\OneClass\PESLessonHome.xap" />
+    <Content Include="ClientBin\OneClass\PrimaryEducationSystem.Study.Lessons.xap" />
     <Content Include="ClientBin\PrimaryEducationSystem.Study.Home.xap" />
     <Content Include="Default.aspx" />
     <Content Include="Scripts\Silverlight.js" />

@@ -177,6 +177,19 @@ namespace PrimaryEducationSystem.Study
                 return null;
             }
         }
+        public List<Lesson> GetLessonByPartname(string partname)
+        {
+            try
+            {
+                pdb = new PESDBDataContext();
+                return (from i in pdb.Lessons where i.PartID == GetPartByName(partname).PartID select i).ToList();
+            }
+            catch
+            {
+                return null;
+            }
+        }
+
         #endregion
 
         #region Get Information Theory

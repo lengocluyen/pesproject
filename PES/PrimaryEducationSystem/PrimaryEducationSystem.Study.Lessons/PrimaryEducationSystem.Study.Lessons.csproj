@@ -1,0 +1,413 @@
+﻿<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{20027F04-6903-42E6-9E33-7E88A9050962}</ProjectGuid>
+    <ProjectTypeGuids>{A1591282-1198-4647-A2B1-27E5FF5F6F3B};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>PrimaryEducationSystem.Study.Lessons</RootNamespace>
+    <AssemblyName>PrimaryEducationSystem.Study.Lessons</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <SilverlightApplication>true</SilverlightApplication>
+    <SupportedCultures>
+    </SupportedCultures>
+    <XapOutputs>true</XapOutputs>
+    <GenerateSilverlightManifest>true</GenerateSilverlightManifest>
+    <XapFilename>PrimaryEducationSystem.Study.Lessons.xap</XapFilename>
+    <SilverlightManifestTemplate>Properties\AppManifest.xml</SilverlightManifestTemplate>
+    <SilverlightAppEntry>PrimaryEducationSystem.Study.Lessons.App</SilverlightAppEntry>
+    <TestPageFileName>TestPage.html</TestPageFileName>
+    <CreateTestPage>true</CreateTestPage>
+    <ValidateXaml>true</ValidateXaml>
+    <EnableOutOfBrowser>false</EnableOutOfBrowser>
+    <OutOfBrowserSettingsFile>Properties\OutOfBrowserSettings.xml</OutOfBrowserSettingsFile>
+    <UsePlatformExtensions>false</UsePlatformExtensions>
+    <ThrowErrorsInValidation>true</ThrowErrorsInValidation>
+    <LinkedServerProject>
+    </LinkedServerProject>
+    <ExpressionBlendVersion>3.0.1927.0</ExpressionBlendVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Bin\Release</OutputPath>
+    <DefineConstants>TRACE;SILVERLIGHT</DefineConstants>
+    <NoStdLib>true</NoStdLib>
+    <NoConfig>true</NoConfig>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System.ComponentModel.DataAnnotations, Version=2.0.5.0, Culture=neutral, PublicKeyToken=ddd0da4d3e678217" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows" />
+    <Reference Include="mscorlib" />
+    <Reference Include="system" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Controls.Data, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Windows.Controls.Data.Input, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Windows.Controls.Toolkit, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL" />
+    <Reference Include="System.Windows.Data, Version=2.0.5.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Windows.Browser" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="App.xaml.cs">
+      <DependentUpon>App.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="MainPage.xaml.cs">
+      <DependentUpon>MainPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_1.xaml.cs">
+      <DependentUpon>Lession_1.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_10.xaml.cs">
+      <DependentUpon>Lession_10.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_2.xaml.cs">
+      <DependentUpon>Lession_2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_3.xaml.cs">
+      <DependentUpon>Lession_3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_4.xaml.cs">
+      <DependentUpon>Lession_4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_5.xaml.cs">
+      <DependentUpon>Lession_5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_6.xaml.cs">
+      <DependentUpon>Lession_6.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_7.xaml.cs">
+      <DependentUpon>Lession_7.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_8.xaml.cs">
+      <DependentUpon>Lession_8.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\Lession_9.xaml.cs">
+      <DependentUpon>Lession_9.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\MainLesson.xaml.cs">
+      <DependentUpon>MainLesson.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="PartOne\MainPartOne.xaml.cs">
+      <DependentUpon>MainPartOne.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Service References\PESServices\Reference.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <ApplicationDefinition Include="App.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+    </ApplicationDefinition>
+    <Page Include="MainPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+    </Page>
+    <Page Include="PartOne\Lession_1.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_10.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_2.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_3.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_4.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_5.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_6.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_7.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_8.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\Lession_9.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\MainLesson.xaml">
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+      <SubType>Designer</SubType>
+    </Page>
+    <Page Include="PartOne\MainPartOne.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:MarkupCompilePass1</Generator>
+    </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\AppManifest.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="Images\book-blue.png" />
+    <Resource Include="Images\book-green.png" />
+    <Resource Include="Images\book-orange.png" />
+    <Resource Include="Images\book-pink.png" />
+    <Resource Include="Images\BookMenu\arrow_left.png" />
+    <Resource Include="Images\BookMenu\arrow_right.png" />
+    <Resource Include="Images\BookMenu\Bia.png" />
+    <Resource Include="Images\BookMenu\Nen1.png" />
+    <Resource Include="Images\BookMenu\Nen2.png" />
+    <Resource Include="Images\BookMenu\P1.png" />
+    <Resource Include="Images\BookMenu\P2.png" />
+    <Resource Include="Images\BookMenu\P3.png" />
+    <Resource Include="Images\BookMenu\P4.png" />
+    <Resource Include="Images\BookMenu\Pb1.png" />
+    <Resource Include="Images\BookMenu\Pb2.png" />
+    <Resource Include="Images\co.png" />
+    <Resource Include="Images\hoa.png" />
+    <Resource Include="Images\Home1.png" />
+    <Resource Include="Images\khi.png" />
+    <Resource Include="Images\khungedit.png" />
+    <Resource Include="Images\khungMay.png" />
+    <Resource Include="Images\loa.png" />
+    <Resource Include="Images\loa_mute.png" />
+    <Resource Include="Images\next.png" />
+    <Resource Include="Images\note_dis.png" />
+    <Resource Include="Images\note_en.png" />
+    <Resource Include="Images\ongsn.png" />
+    <Resource Include="Images\page2.png" />
+    <Resource Include="Images\page3.png" />
+    <Resource Include="Images\prev %282%29.png" />
+    <Resource Include="Images\sun.png" />
+    <Resource Include="Images\Tiger.png" />
+    <Resource Include="PartOne\Images\123.jpg" />
+    <Resource Include="PartOne\Images\123.png" />
+    <Resource Include="PartOne\Images\back.png" />
+    <Resource Include="PartOne\Images\Bark-2.png" />
+    <Resource Include="PartOne\Images\blog.png" />
+    <Resource Include="PartOne\Images\book.png" />
+    <Resource Include="PartOne\Images\buom.JPG" />
+    <Resource Include="PartOne\Images\buom.png" />
+    <Resource Include="PartOne\Images\cao cao.JPG" />
+    <Resource Include="PartOne\Images\chim.JPG" />
+    <Resource Include="PartOne\Images\chim.png" />
+    <Resource Include="PartOne\Images\con ong.png" />
+    <Resource Include="PartOne\Images\Dao.png" />
+    <Resource Include="PartOne\Images\down.png" />
+    <Resource Include="PartOne\Images\f1.png" />
+    <Resource Include="PartOne\Images\f2.png" />
+    <Resource Include="PartOne\Images\f3.png" />
+    <Resource Include="PartOne\Images\f4.png" />
+    <Resource Include="PartOne\Images\flowers.png" />
+    <Resource Include="PartOne\Images\fowloaw.png" />
+    <Resource Include="PartOne\Images\ga cha.JPG" />
+    <Resource Include="PartOne\Images\ga cha.png" />
+    <Resource Include="PartOne\Images\ga con.JPG" />
+    <Resource Include="PartOne\Images\ga con.png" />
+    <Resource Include="PartOne\Images\Home.png" />
+    <Resource Include="PartOne\Images\keo.JPG" />
+    <Resource Include="PartOne\Images\Khung.png" />
+    <Resource Include="PartOne\Images\kien.JPG" />
+    <Resource Include="PartOne\Images\Lession2\Banh trung .png" />
+    <Resource Include="PartOne\Images\Lession2\Bienbaohinhvuong.png" />
+    <Resource Include="PartOne\Images\Lession2\bong hoa.PNG" />
+    <Resource Include="PartOne\Images\Lession2\bong1.png" />
+    <Resource Include="PartOne\Images\Lession2\Buom.PNG" />
+    <Resource Include="PartOne\Images\Lession2\chuoi.PNG" />
+    <Resource Include="PartOne\Images\Lession2\Hinh tron.png" />
+    <Resource Include="PartOne\Images\Lession2\hinhvuong1.png" />
+    <Resource Include="PartOne\Images\Lession2\la cay.PNG" />
+    <Resource Include="PartOne\Images\Lession2\PointTable.png" />
+    <Resource Include="PartOne\Images\Lession2\qua bong.png" />
+    <Resource Include="PartOne\Images\Lession2\Trai dat.png" />
+    <Resource Include="PartOne\Images\Lession3\eke.png" />
+    <Resource Include="PartOne\Images\Lession3\eke1.png" />
+    <Resource Include="PartOne\Images\Lession3\Hinh tam giac 1.png" />
+    <Resource Include="PartOne\Images\Lession3\Tam giac 2.png" />
+    <Resource Include="PartOne\Images\Lession4\2be.png" />
+    <Resource Include="PartOne\Images\Lession4\2MEO.png" />
+    <Resource Include="PartOne\Images\Lession4\3be.png" />
+    <Resource Include="PartOne\Images\Lession4\3bonghoa.png" />
+    <Resource Include="PartOne\Images\Lession4\begai.png" />
+    <Resource Include="PartOne\Images\Lession4\bong hoa.PNG" />
+    <Resource Include="PartOne\Images\Lession4\Buom.PNG" />
+    <Resource Include="PartOne\Images\Lession4\Cham1.png" />
+    <Resource Include="PartOne\Images\Lession4\Cham2.png" />
+    <Resource Include="PartOne\Images\Lession4\Cham3.png" />
+    <Resource Include="PartOne\Images\Lession4\chuoi.PNG" />
+    <Resource Include="PartOne\Images\Lession4\HaiBe.png" />
+    <Resource Include="PartOne\Images\Lession4\la cay.PNG" />
+    <Resource Include="PartOne\Images\Lession4\One.png" />
+    <Resource Include="PartOne\Images\Lession4\ongcon.png" />
+    <Resource Include="PartOne\Images\Lession4\so 2.png" />
+    <Resource Include="PartOne\Images\Lession4\so1.png" />
+    <Resource Include="PartOne\Images\Lession4\so3.png" />
+    <Resource Include="PartOne\Images\Lession4\Three.png" />
+    <Resource Include="PartOne\Images\Lession4\Two.png" />
+    <Resource Include="PartOne\Images\Lession5\Bong.png" />
+    <Resource Include="PartOne\Images\Lession5\Carot.png" />
+    <Resource Include="PartOne\Images\Lession5\Cham4.png" />
+    <Resource Include="PartOne\Images\Lession5\Cham5.png" />
+    <Resource Include="PartOne\Images\Lession5\clock1.png" />
+    <Resource Include="PartOne\Images\Lession5\Du.png" />
+    <Resource Include="PartOne\Images\Lession5\Echcon.png" />
+    <Resource Include="PartOne\Images\Lession5\Five.png" />
+    <Resource Include="PartOne\Images\Lession5\Four.png" />
+    <Resource Include="PartOne\Images\Lession5\hoa1.png" />
+    <Resource Include="PartOne\Images\Lession5\Hoa2.png" />
+    <Resource Include="PartOne\Images\Lession5\Hoa3.png" />
+    <Resource Include="PartOne\Images\Lession5\Ngoisao.png" />
+    <Resource Include="PartOne\Images\Lession5\Oto.png" />
+    <Resource Include="PartOne\Images\Lession5\Oto2.png" />
+    <Resource Include="PartOne\Images\Lession5\so4.png" />
+    <Resource Include="PartOne\Images\Lession5\so5.png" />
+    <Resource Include="PartOne\Images\Lession5\Tho.png" />
+    <Resource Include="PartOne\Images\Lession6\Chim1.png" />
+    <Resource Include="PartOne\Images\Lession6\Chim2.png" />
+    <Resource Include="PartOne\Images\Lession6\Chim3.png" />
+    <Resource Include="PartOne\Images\Lession6\Chim4.png" />
+    <Resource Include="PartOne\Images\Lession6\dau be.png" />
+    <Resource Include="PartOne\Images\Lession6\Dau nho.png" />
+    <Resource Include="PartOne\Images\Lession6\Hv.png" />
+    <Resource Include="PartOne\Images\Lession6\Oto.png" />
+    <Resource Include="PartOne\Images\Lession6\tamgiac.png" />
+    <Resource Include="PartOne\Images\lighthouse-01.png" />
+    <Resource Include="PartOne\Images\loa.png" />
+    <Resource Include="PartOne\Images\loa_mute.png" />
+    <Resource Include="PartOne\Images\mieng.png" />
+    <Resource Include="PartOne\Images\Next.png" />
+    <Resource Include="PartOne\Images\note_dis.png" />
+    <Resource Include="PartOne\Images\note_en.png" />
+    <Resource Include="PartOne\Images\palm-tree-4.png" />
+    <Resource Include="PartOne\Images\schooner-1.png" />
+    <Resource Include="PartOne\Images\ship.png" />
+    <Resource Include="PartOne\Images\study.jpg" />
+    <Resource Include="PartOne\Images\Sun.png" />
+    <Resource Include="PartOne\Images\tanker.png" />
+    <Resource Include="PartOne\Images\Tao do.JPG" />
+    <Resource Include="PartOne\Images\three-palm-trees.png" />
+    <Resource Include="PartOne\Images\Tree-simple.png" />
+    <Resource Include="PartOne\Images\up.png" />
+    <Resource Include="PartOne\Images\vit con.JPG" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Audio\Cam do.wma" />
+    <None Include="PartOne\Images\Thumbs.db" />
+    <None Include="Service References\PESServices\PESServices.xsd" />
+    <Content Include="ServiceReferences.ClientConfig" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="PartOne\Audio\Lession1\A duck.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PartOne\Audio\Lession1\Heo dat.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PartOne\Audio\Lession2\Ngay dau di hoc.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PartOne\Audio\Lession3\Tia ma.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PartOne\Audio\Lession4\Nhung em be ngoan.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PartOne\Audio\Lession5\Bup be bang bong.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="PartOne\Audio\Lession6\Nhung em be ngoan.mp3">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Lessons.PESServices.Class.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Lessons.PESServices.Exercise.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Lessons.PESServices.Lesson.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Lessons.PESServices.Part.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Lessons.PESServices.Subject.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Lessons.PESServices.Theory.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Lessons.PESServices.User.datasource">
+      <DependentUpon>Reference.svcmap</DependentUpon>
+    </None>
+    <None Include="Service References\PESServices\Reference.svcmap">
+      <Generator>WCF Proxy Generator</Generator>
+      <LastGenOutput>Reference.cs</LastGenOutput>
+    </None>
+    <None Include="Service References\PESServices\configuration.svcinfo" />
+    <None Include="Service References\PESServices\configuration91.svcinfo" />
+    <None Include="Service References\PESServices\PESServices.disco" />
+    <None Include="Service References\PESServices\PESServices.wsdl" />
+    <None Include="Service References\PESServices\PESServices1.xsd" />
+    <None Include="Service References\PESServices\PESServices2.xsd" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadataStorage Include="Service References\PESServices\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PartOne\Audio\Lession10\" />
+    <Folder Include="PartOne\Audio\Lession7\" />
+    <Folder Include="PartOne\Audio\Lession8\" />
+    <Folder Include="PartOne\Audio\Lession9\" />
+    <Folder Include="PartOne\Images\Lession1\" />
+    <Folder Include="PartTwo\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Silverlight\v3.0\Microsoft.Silverlight.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{A1591282-1198-4647-A2B1-27E5FF5F6F3B}">
+        <SilverlightProjectProperties />
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>
