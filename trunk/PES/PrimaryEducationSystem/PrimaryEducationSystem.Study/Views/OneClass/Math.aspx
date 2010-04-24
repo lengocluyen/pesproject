@@ -68,7 +68,7 @@
     <div id="silverlightControlHost">
         <object data="data:application/x-silverlight-2," type="application/x-silverlight-2"
             width="100%" height="100%">
-            <param name="source" value="<%= Html.ResolveUrl("~/ClientBin/OneClass/Template_PartAndLessons.xap") %>" />
+            <param name="source" value="<%= Html.ResolveUrl("~/ClientBin/OneClass/PrimaryEducationSystem.Study.Lessons.xap") %>" />
             <param name="enableHtmlAccess" value="true" />
             <param name="onError" value="onSilverlightError" />
             <param name="background" value="white" />

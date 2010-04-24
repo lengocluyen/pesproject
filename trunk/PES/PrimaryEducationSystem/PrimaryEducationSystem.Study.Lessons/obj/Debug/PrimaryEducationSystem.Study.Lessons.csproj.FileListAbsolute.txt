@@ -1,0 +1,85 @@
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\ResolveAssemblyReference.cache
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\App.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\MainPage.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PrimaryEducationSystem.Study.Lessons.g.resources
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\AppManifest.xaml
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PrimaryEducationSystem.Study.Lessons.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PrimaryEducationSystem.Study.Lessons.pdb
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PrimaryEducationSystem.Study.Lessons.xap
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\TestPage.html
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.Toolkit.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Reactive.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.Toolkit.pdb
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.Toolkit.xml
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.xml
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\de\System.Windows.Controls.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\es\System.Windows.Controls.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\fr\System.Windows.Controls.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\it\System.Windows.Controls.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ja\System.Windows.Controls.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ko\System.Windows.Controls.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hans\System.Windows.Controls.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hant\System.Windows.Controls.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PrimaryEducationSystem.Study.Lessons.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PrimaryEducationSystem.Study.Lessons.pdb
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\XapCacheFile.xml
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PartOne\Audio\Lession1\A duck.mp3
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PartOne\Audio\Lession1\Heo dat.mp3
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PartOne\Audio\Lession2\Ngay dau di hoc.mp3
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PartOne\Audio\Lession3\Tia ma.mp3
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PartOne\Audio\Lession4\Nhung em be ngoan.mp3
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PartOne\Audio\Lession5\Bup be bang bong.mp3
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\PartOne\Audio\Lession6\Nhung em be ngoan.mp3
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_1.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_10.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_2.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_3.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_4.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_5.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_6.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_7.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_8.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\Lession_9.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\MainLesson.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\obj\Debug\PartOne\MainPartOne.g.cs
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.ComponentModel.DataAnnotations.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.Data.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.Data.Input.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Data.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.Data.Input.xml
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Data.xml
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.ComponentModel.DataAnnotations.xml
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\System.Windows.Controls.Data.xml
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\de\System.Windows.Controls.Data.Input.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\es\System.Windows.Controls.Data.Input.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\fr\System.Windows.Controls.Data.Input.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\it\System.Windows.Controls.Data.Input.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ja\System.Windows.Controls.Data.Input.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ko\System.Windows.Controls.Data.Input.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hans\System.Windows.Controls.Data.Input.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hant\System.Windows.Controls.Data.Input.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\de\System.Windows.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\es\System.Windows.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\fr\System.Windows.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\it\System.Windows.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ja\System.Windows.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ko\System.Windows.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hans\System.Windows.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hant\System.Windows.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\de\System.ComponentModel.DataAnnotations.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\es\System.ComponentModel.DataAnnotations.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\fr\System.ComponentModel.DataAnnotations.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\it\System.ComponentModel.DataAnnotations.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ja\System.ComponentModel.DataAnnotations.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ko\System.ComponentModel.DataAnnotations.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hans\System.ComponentModel.DataAnnotations.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hant\System.ComponentModel.DataAnnotations.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\de\System.Windows.Controls.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\es\System.Windows.Controls.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\fr\System.Windows.Controls.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\it\System.Windows.Controls.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ja\System.Windows.Controls.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\ko\System.Windows.Controls.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hans\System.Windows.Controls.Data.resources.dll
+E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study.Lessons\Bin\Debug\zh-Hant\System.Windows.Controls.Data.resources.dll

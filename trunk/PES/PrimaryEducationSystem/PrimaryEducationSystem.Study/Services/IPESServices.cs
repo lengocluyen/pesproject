@@ -68,6 +68,7 @@ namespace PrimaryEducationSystem.Study
         List<Exercise> GetExerciseByLessonID(int idLesson);
         #endregion
 
+        #region UserServices
         [OperationContract]
         User GetUserByID(Guid ID);
         [OperationContract]
@@ -76,6 +77,8 @@ namespace PrimaryEducationSystem.Study
         User GetUserByName(string name);
         [OperationContract]
         List<User> GetAllUser();
+        #endregion
+
         #endregion
     }
 }
