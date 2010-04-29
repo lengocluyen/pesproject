@@ -19,6 +19,7 @@ namespace PESLessonHome
         {
             InitializeComponent();
             this.AddEvent();
+            audio1.Play();
         }
         public void AddEvent()
         {

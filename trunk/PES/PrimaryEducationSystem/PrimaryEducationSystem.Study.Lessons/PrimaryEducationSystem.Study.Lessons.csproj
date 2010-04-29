@@ -328,25 +328,19 @@
     <Content Include="ServiceReferences.ClientConfig" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="PartOne\Audio\Lession1\A duck.mp3">
+    <Content Include="PartOne\Audio\Lession1\Bai 1-NhieuHon-ItHon.wma">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="PartOne\Audio\Lession1\Heo dat.mp3">
+    <Content Include="PartOne\Audio\Lession2\Bai 2-Hinh Vuong-HinhTron.wma">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="PartOne\Audio\Lession2\Ngay dau di hoc.mp3">
+    <Content Include="PartOne\Audio\Lession3\Bai 3-Hinh Tam Giac.wma">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="PartOne\Audio\Lession3\Tia ma.mp3">
+    <Content Include="PartOne\Audio\Lession4\Bai 4-SoMot.wma">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
-    <Content Include="PartOne\Audio\Lession4\Nhung em be ngoan.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="PartOne\Audio\Lession5\Bup be bang bong.mp3">
-      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
-    </Content>
-    <Content Include="PartOne\Audio\Lession6\Nhung em be ngoan.mp3">
+    <Content Include="PartOne\Audio\Lession5\Bai 5-SoBon.wma">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <None Include="Service References\PESServices\PrimaryEducationSystem.Study.Lessons.PESServices.Class.datasource">
@@ -389,6 +383,7 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="PartOne\Audio\Lession10\" />
+    <Folder Include="PartOne\Audio\Lession6\" />
     <Folder Include="PartOne\Audio\Lession7\" />
     <Folder Include="PartOne\Audio\Lession8\" />
     <Folder Include="PartOne\Audio\Lession9\" />

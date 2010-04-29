@@ -1451,7 +1451,7 @@
                 </Image.RenderTransform>
             </Image>
         </HyperlinkButton>
-        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/Audio/Lession5/Bup be bang bong.mp3"/>
+        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/PartOne/Audio/Lession5/Bai 5-SoBon.wma"/>
         <Image x:Name="tho1" HorizontalAlignment="Left" Margin="194,211,0,488" Width="0.5" Source="Images/Lession5/Tho.png" Stretch="Fill" Height="0.5" RenderTransformOrigin="0.5,0.5">
             <Image.RenderTransform>
                 <TransformGroup>

@@ -12,3 +12,10 @@ H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\Primar
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.pdb
 E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.dll
 E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Families.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Families.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\bin\PrimaryEducationSystem.Core.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\obj\Debug\ResolveAssemblyReference.cache
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\obj\Debug\PrimaryEducationSystem.Families.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Families\obj\Debug\PrimaryEducationSystem.Families.pdb

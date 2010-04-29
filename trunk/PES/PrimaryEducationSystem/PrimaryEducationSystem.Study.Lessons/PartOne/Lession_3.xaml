@@ -334,7 +334,7 @@
                 </Image.RenderTransform>
             </Image>
         </HyperlinkButton>
-        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/Audio/Lession3/Tia ma.mp3"/>
+        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/PartOne/Audio/Lession3/Bai 3-Hinh Tam Giac.wma"/>
         <Image x:Name="tamgiac1" HorizontalAlignment="Left" Margin="105,294,0,404" Width="0.5" Source="Images/Lession3/Tam giac 2.png" Stretch="Fill" Height="0.5" RenderTransformOrigin="0.5,0.5">
         	<Image.RenderTransform>
         		<TransformGroup>

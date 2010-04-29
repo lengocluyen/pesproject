@@ -391,7 +391,7 @@
                 </Image.RenderTransform>
             </Image>
         </HyperlinkButton>
-        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/Audio/Lession2/Ngay dau di hoc.mp3"/>
+        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/PartOne/Audio/Lession2/Bai 2-Hinh Vuong-HinhTron.wma"/>
     	<Image x:Name="hinhvuong1" Height="1" HorizontalAlignment="Left" Margin="93,164,0,0" VerticalAlignment="Top" Width="1" RenderTransformOrigin="0.5,0.5" Source="Images/Lession2/hinhvuong1.png" Stretch="Fill">
     		<Image.RenderTransform>
     			<TransformGroup>

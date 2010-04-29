@@ -22,3 +22,9 @@ H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\Prim
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\ResolveAssemblyReference.cache
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.dll
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.dll.config
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\bin\Debug\PrimaryEducationSystem.Core.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\ResolveAssemblyReference.cache
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Core\obj\Debug\PrimaryEducationSystem.Core.pdb
