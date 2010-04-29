@@ -26,8 +26,7 @@
           <AlwaysStartWebServerOnDebug>True</AlwaysStartWebServerOnDebug>
           <EnableWcfTestClientForSVC>False</EnableWcfTestClientForSVC>
           <ProjectOutputReferences>
-            <Ref Project="{779F1DDF-C81E-4571-B2CA-1EE7E654417F}" Folder="ClientBin">
-            </Ref>
+            <Ref Project="{779F1DDF-C81E-4571-B2CA-1EE7E654417F}" Folder="ClientBin">PrimaryEducationSystem.Study.Home.xap</Ref>
           </ProjectOutputReferences>
         </WebProjectProperties>
       </FlavorProperties>

@@ -94,11 +94,11 @@
     <AspNetConfiguration>$(Configuration)</AspNetConfiguration>
   </PropertyGroup>
   <PropertyGroup>
-    <SolutionDir>E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\</SolutionDir>
+    <SolutionDir>D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\</SolutionDir>
     <SolutionExt>.sln</SolutionExt>
     <SolutionFileName>PrimaryEducationSystem.sln</SolutionFileName>
     <SolutionName>PrimaryEducationSystem</SolutionName>
-    <SolutionPath>E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.sln</SolutionPath>
+    <SolutionPath>D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.sln</SolutionPath>
   </PropertyGroup>
   <PropertyGroup>
     <TargetFrameworkVersion Condition="'$(TargetFrameworkVersion)' == '' and '$(MSBuildToolsVersion)' == '2.0'">v2.0</TargetFrameworkVersion>

@@ -18,3 +18,10 @@ H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\zh-Hans\S
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\zh-Hant\System.Web.Silverlight.resources.dll
 E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\PrimaryEducationSystem.Core.dll
 E:\LAM VIEC\IMAGINE\PES_PROJECT\pesproject\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\PrimaryEducationSystem.Core.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\PrimaryEducationSystem.Study.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\PrimaryEducationSystem.Study.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\PrimaryEducationSystem.Core.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\bin\PrimaryEducationSystem.Core.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\obj\Debug\ResolveAssemblyReference.cache
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\obj\Debug\PrimaryEducationSystem.Study.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Study\obj\Debug\PrimaryEducationSystem.Study.pdb

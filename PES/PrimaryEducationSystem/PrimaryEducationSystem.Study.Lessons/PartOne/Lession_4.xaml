@@ -836,7 +836,7 @@
                 </Image.RenderTransform>
             </Image>
         </HyperlinkButton>
-        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/Audio/Lession1/Heo dat.mp3"/>
+        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/PartOne/Audio/Lession4/Bai 4-SoMot.wma"/>
         <Image x:Name="bonghoa" Height="0.5" HorizontalAlignment="Left" Margin="142.5,217.5,0,209.5" Width="0.5" RenderTransformOrigin="0.5,0.5" UseLayoutRounding="False" Source="Images/Lession4/bong hoa.PNG" Stretch="Fill" d:LayoutRounding="Auto">
         	<Image.RenderTransform>
         		<TransformGroup>

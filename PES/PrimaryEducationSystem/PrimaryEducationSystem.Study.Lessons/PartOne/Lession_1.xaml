@@ -676,7 +676,7 @@
             </Path.RenderTransform>
         </Path>    	
     	<HyperlinkButton x:Name="up_link" Height="51" Margin="674,41,649,0" VerticalAlignment="Top" MouseMove="up_link_MouseMove">
-    		<Image x:Name="image10" Height="51" Width="51" RenderTransformOrigin="0.5,0.5" Source="Images/up.png" Stretch="Fill" d:LayoutOverrides="Width">
+    		<Image x:Name="image10" Height="51" Width="51" RenderTransformOrigin="0.5,0.5" Source="Images/up.png" Stretch="Fill" d:LayoutOverrides="Width" Visibility="Collapsed">
     			<Image.RenderTransform>
     				<TransformGroup>
     					<ScaleTransform/>
@@ -688,7 +688,7 @@
     		</Image>
     	</HyperlinkButton>
     	<HyperlinkButton x:Name="down_link" Height="49" Margin="674,0,649,50" VerticalAlignment="Bottom" MouseMove="down_link_MouseMove">
-    		<Image x:Name="image11" Height="49" Width="49" RenderTransformOrigin="0.5,0.5" Source="Images/down.png" Stretch="Fill">
+    		<Image x:Name="image11" Height="49" Width="49" RenderTransformOrigin="0.5,0.5" Source="Images/down.png" Stretch="Fill" Visibility="Collapsed">
     			<Image.RenderTransform>
     				<TransformGroup>
     					<ScaleTransform/>
@@ -723,6 +723,6 @@
                 </Image.RenderTransform>
             </Image>
         </HyperlinkButton>
-        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/Audio/Lession1/Heo dat.mp3"/>
+        <MediaElement x:Name="audio1" AutoPlay="True" Height="5" HorizontalAlignment="Left" Margin="225,44,0,0" VerticalAlignment="Top" Width="12" Source="/PartOne/Audio/Lession1/Bai 1-NhieuHon-ItHon.wma"/>
     </Grid>
 </UserControl>

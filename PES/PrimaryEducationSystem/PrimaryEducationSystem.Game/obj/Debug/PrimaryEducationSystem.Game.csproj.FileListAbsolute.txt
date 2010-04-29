@@ -8,3 +8,8 @@ H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\obj\Debug\Prim
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\obj\Debug\PrimaryEducationSystem.Game.pdb
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\bin\PrimaryEducationSystem.Game.dll
 H:\Working\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\bin\PrimaryEducationSystem.Game.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\bin\PrimaryEducationSystem.Game.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\bin\PrimaryEducationSystem.Game.pdb
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\obj\Debug\ResolveAssemblyReference.cache
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\obj\Debug\PrimaryEducationSystem.Game.dll
+D:\IMAGINECUP 2010\SourceNew\PES\PrimaryEducationSystem\PrimaryEducationSystem.Game\obj\Debug\PrimaryEducationSystem.Game.pdb
