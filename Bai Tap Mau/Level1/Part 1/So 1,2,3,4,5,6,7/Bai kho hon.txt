@@ -1,0 +1,6 @@
+﻿Câu hỏi 1: Bé hãy cho biết có bao nhiêu quả bóng
+
+A. Hai quả bóng
+B. Ba quả bóng
+C. Một quả bóng
+D. Năm quả bóng

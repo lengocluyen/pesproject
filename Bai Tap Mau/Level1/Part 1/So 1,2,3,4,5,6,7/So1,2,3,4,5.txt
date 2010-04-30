@@ -1,0 +1,42 @@
+﻿Câu hỏi 1: Bé hãy cho biết đây là số mấy 
+A. Số 1
+B. Số 2
+C. Số 3
+D. Số 4
+
+Câu hỏi 2: Bé hãy cho biết đây là số mấy 
+A. Số 1
+B. Số 2
+C. Số 3
+D. Số 4
+
+Câu hỏi 3: Bé hãy cho biết đây là số mấy 
+A. Số 5
+B. Số 3
+C. Số 1
+D. Số 4
+
+Câu hỏi 4: Bé hãy cho biết đây là số mấy 
+A. Số 1
+B. Số 5
+C. Số 3
+D. Số 4
+
+
+Câu hỏi 5: Bé hãy cho biết đây là số mấy 
+A. Số 3
+B. Số 2
+C. Số 1
+D. Số 5
+
+Câu hỏi 6: Bé hãy cho biết đây là số mấy 
+A. Số 6
+B. Số 4
+C. Số 7
+D. Số 1
+
+Câu hỏi 7: Bé hãy cho biết đây là số mấy 
+A. Số 3
+B. Số 7
+C. Số 2
+D. Số 4

@@ -1,0 +1,14 @@
+﻿Câu hỏi 1: Hãy cho biết dấu này là dấu gì
+A. Dấu lớn
+B. Dấu nhỏ
+C. Dấu bằng
+
+Câu hỏi 2: Hãy cho biết dấu này là dấu gì
+A. Dấu lớn
+B. Dấu nhỏ
+C. Dấu bằng
+
+Câu hỏi 3: Hãy cho biết dấu này là dấu gì
+A. Dấu lớn
+B. Dấu nhỏ
+C. Dấu bằng
