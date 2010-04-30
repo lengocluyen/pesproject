@@ -1,0 +1,14 @@
+﻿Câu hỏi 1: Bé đã từng thấy những chú kiến này xung quanh nhà của bé chưa? Bây giờ, bé hãy cho biết là 3 chú kiến thì nhiều hơn hay ít hơn 1 chú kiến?
+
+a. Nhiều hơn
+b. Ít hơn
+
+Câu hỏi 2: Bé đã thường thấy những chú cào cào này ở trên bãi cỏ hay là trên cánh đồng xung quanh nhà của bé rồi. Vậy bé hãy cho biết là 3 chú cào cào thì nhiều hơn hay ít hơn 2 chú cào cào?
+
+a. Ít hơn
+b. Nhiều hơn
+
+Câu hỏi 3: Bé hay ăn kẹo lắm phải không. Vậy bé hãy cho biết là 2 cây kẹo thì nhiều hơn hay ít hơn 6 cây kẹo?
+
+a. Nhiều hơn
+b. Ít hơn
