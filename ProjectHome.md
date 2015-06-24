@@ -1,0 +1,5 @@
+Hệ thống giáo dục tiểu học được phát triển thêm từ website học tiếng việt của ITBus. chức năng của hệ thống được phát triển thêm nhiều môn học dành cho các lớp ở bậc tiểu học. Chúng tôi các thành viên của nhóm FlyChips? sẽ phát triển thêm chức năng học toán cho lớp 1 và định hình lại hệ thống rỏ ràng hơn, hệ thống sẽ có khả năng kế thừa và phát triển thêm sau này. Những chức năng mà Flychips sẽ phát triển bao gồm, xây dựng những nhóm bài học và bài tập của môn toán cho học sinh lớp 1 kèm theo đó là hệ thống game tương ứng. Công việc của nhóm còn phải xây dựng được chức năng giao lưu giữa các gia đình với nhau, cùng trao đổi kinh ngiệm qua các bài viết hay tạo mối quan hệ giữa các gia đình ... Hệ thống là một ý tưởng rất thiết thực và bổ ích Flychips sẽ cố gắng hết sức để hoàn thành những mục tiêu đặt ra và sẽ tìm tòi lớp kế cận tiếp theo để xây dựng hệ thống này hoàn chỉnh hơn.
+
+Dalat mùa xuân 2010.
+
+flychips
